@@ -1,0 +1,13 @@
+{
+  "name": "knu-notice-collector",
+  "version": "1.0.0",
+  "description": "경북대 CS 대외활동/공지 소스를 매일 확인해 새 글을 노션 '새 글 피드' 데이터베이스에 자동으로 추가하는 수집기",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "collect": "node src/collect.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
