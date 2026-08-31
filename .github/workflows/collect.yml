@@ -2,8 +2,8 @@ name: Collect KNU notices
 
 on:
   schedule:
-    # 매일 09:00 KST(UTC+9) = 00:00 UTC
-    - cron: "0 0 * * *"
+    # 매일 10:15 KST(UTC+9) = 01:15 UTC
+    - cron: "15 1 * * *"
   workflow_dispatch: {}
 
 permissions:
