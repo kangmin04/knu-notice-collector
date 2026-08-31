@@ -1,0 +1,1 @@
+- [GitHub Actions / CI yml 작성법](github-actions-ci.md) — 트리거·권한·매트릭스·secrets·조건부 커밋 패턴, gh CLI 설정 흐름, 아티팩트/outputs/재사용 워크플로우/Docker/승인 게이트 등 상세 예시
