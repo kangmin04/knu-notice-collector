@@ -1,1 +1,4 @@
 - [GitHub Actions / CI yml 작성법](github-actions-ci.md) — 트리거·권한·매트릭스·secrets·조건부 커밋 패턴, gh CLI 설정 흐름, 아티팩트/outputs/재사용 워크플로우/Docker/승인 게이트 등 상세 예시
+- [Playwright 동적 렌더링 수집](playwright-dynamic-rendering.md) — E2E 테스트와의 차이, SPA fetch 한계, waitForSelector+grace time으로 레이스 컨디션 방지, static/dynamic 지연 라우팅
+- [JS/Node 비동기 패턴](js-async-patterns.md) — Promise 메모이제이션 싱글턴, 동적 import, AbortController 타임아웃, 순차 vs 병렬 await, 고정 sleep 레이스 컨디션 땜빵의 한계
+- [Node 스크립트/배치 잡 설계 패턴](node-script-design-patterns.md) — Strategy+Registry 패턴, fetch/parse 계층 분리, 항목 단위 에러 격리, 컨텐츠 해시 기반 아이덴티티

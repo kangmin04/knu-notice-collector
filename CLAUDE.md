@@ -55,6 +55,17 @@ GitHub Secrets로 안전하게 관리할 수 있음. 러너가 매번 새 환경
 `src/sites.js` 상단 주석 참고. (과거 이 문서에 "링커리어/위비티는 JS 렌더링이라 제외"라고
 적혀 있었으나, 실측 결과 두 사이트 모두 현재는 서버렌더링이라 정적 파싱이 가능해 포함시켰다.)
 
+## 코드 스타일 (ESLint / Prettier)
+ESLint(flat config, `eslint.config.js`)와 Prettier(`.prettierrc.json`)를 도입했다.
+`eslint-config-prettier`로 두 도구의 규칙 충돌(포맷 관련 규칙)을 끄고, 포맷팅은 Prettier가,
+버그성 이슈(미사용 변수 등)는 ESLint가 전담하도록 역할을 나눴다. 대상은 `src/`의 JS 코드이며,
+`docs/`, `.claude/learnings/` 등 서술형 마크다운 문서는 `.prettierignore`에서 제외했다
+(수동으로 공들여 쓴 문서라 자동 재포맷 대상에서 뺌).
+
+명령어:
+- `npm run lint` / `npm run lint:fix` — ESLint 검사/자동 수정
+- `npm run format` / `npm run format:check` — Prettier 포맷 적용/검사
+
 ## 참고
 - `.env`는 절대 커밋하지 않는다 (노션 토큰 포함, `.gitignore`에 이미 등록됨). GitHub Actions에서는
   `.env` 대신 repo Secret `NOTION_TOKEN`을 사용한다.

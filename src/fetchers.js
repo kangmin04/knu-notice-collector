@@ -25,10 +25,16 @@ export async function fetchStaticText(site) {
       headers: {
         "User-Agent": site.userAgent ?? DEFAULT_UA,
         ...(site.requestBody
-          ? { "Content-Type": isFormBody ? "application/x-www-form-urlencoded" : "application/json" }
+          ? {
+              "Content-Type": isFormBody ? "application/x-www-form-urlencoded" : "application/json",
+            }
           : {}),
       },
-      body: isFormBody ? site.requestBody : site.requestBody ? JSON.stringify(site.requestBody) : undefined,
+      body: isFormBody
+        ? site.requestBody
+        : site.requestBody
+          ? JSON.stringify(site.requestBody)
+          : undefined,
       signal: controller.signal,
       ...(site.insecureTLS ? { dispatcher: insecureAgent } : {}),
     });

@@ -19,7 +19,10 @@ export function parseDgtp(html, baseUrl) {
     const title = cleanText($(el).find("._subject").first().text() || $(el).text());
     if (!title) return;
     seenIds.add(nttId);
-    const url = new URL(`/bbs/BoardControllView.do?bbsId=${bbsId}&nttId=${nttId}`, baseUrl).toString();
+    const url = new URL(
+      `/bbs/BoardControllView.do?bbsId=${bbsId}&nttId=${nttId}`,
+      baseUrl,
+    ).toString();
     items.push({ id: nttId, title, url });
   });
 

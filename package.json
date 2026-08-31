@@ -5,7 +5,11 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "collect": "node src/collect.js"
+    "collect": "node src/collect.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "engines": {
     "node": ">=18"
@@ -15,5 +19,12 @@
     "iconv-lite": "^0.7.3",
     "playwright": "^1.62.1",
     "undici": "^8.10.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.1",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.11.0",
+    "prettier": "^3.9.6"
   }
 }

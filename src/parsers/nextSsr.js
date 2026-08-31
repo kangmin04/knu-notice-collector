@@ -14,7 +14,7 @@ export function extractItemsByLinkPrefix(html, baseUrl, { linkPrefix, idPattern 
   const seenIds = new Set();
   const anchorRe = new RegExp(
     `<a[^>]*href="(${escapeRegex(linkPrefix)}[^"#]*)"[^>]*>([\\s\\S]*?)<\\/a>`,
-    "g"
+    "g",
   );
 
   let m;

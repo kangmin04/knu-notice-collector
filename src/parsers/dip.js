@@ -21,7 +21,7 @@ export function parseDip(html, baseUrl) {
     seenIds.add(idx);
     const url = new URL(
       `boardRead.ubs?sfpsize=10&fboardcd=notice&fboardnum=${idx}&sfpage=1`,
-      baseUrl
+      baseUrl,
     ).toString();
     items.push({ id: idx, title, url });
   });

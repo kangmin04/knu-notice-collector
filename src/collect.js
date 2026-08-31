@@ -13,13 +13,13 @@ const DRY_RUN = process.env.DRY_RUN === "1";
 
 if (!NOTION_TOKEN || !FEED_DATABASE_ID) {
   console.error(
-    "NOTION_TOKEN / NOTION_FEED_DATABASE_ID가 설정되지 않았습니다. .env.example을 참고해 .env를 만들어주세요."
+    "NOTION_TOKEN / NOTION_FEED_DATABASE_ID가 설정되지 않았습니다. .env.example을 참고해 .env를 만들어주세요.",
   );
   process.exit(1);
 }
 
 // mode: "dynamic" 사이트가 하나도 없으면 src/browser.js(Playwright)를 아예 로드하지
-// 않도록 동적 import로 지연시킨다. lazyload. 
+// 않도록 동적 import로 지연시킨다. lazyload.
 let usedBrowser = false;
 async function fetchSiteContent(site) {
   // site.mode가 "dynamic"이면 Playwright로 렌더링, 아니면(기본값) 단순 fetch로 가져온다.
@@ -53,7 +53,9 @@ async function main() {
       const items = parse(html, site.url);
       // 5. 파싱 결과가 0건이면 사이트 구조가 바뀌었을 가능성이 크므로 경고만 남기고 건너뛴다.
       if (items.length === 0) {
-        console.warn(`[${site.name}] 게시글을 하나도 찾지 못했습니다. 사이트 구조가 바뀌었을 수 있습니다.`);
+        console.warn(
+          `[${site.name}] 게시글을 하나도 찾지 못했습니다. 사이트 구조가 바뀌었을 수 있습니다.`,
+        );
         continue;
       }
 
@@ -78,7 +80,12 @@ async function main() {
         if (DRY_RUN) {
           console.log(`[DRY_RUN][${site.name}] 새 글 추가 예정: ${item.title}`);
         } else {
-          await addFeedItem({ site, item, notionToken: NOTION_TOKEN, databaseId: FEED_DATABASE_ID });
+          await addFeedItem({
+            site,
+            item,
+            notionToken: NOTION_TOKEN,
+            databaseId: FEED_DATABASE_ID,
+          });
         }
         seenIds.add(item.id);
       }
