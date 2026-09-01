@@ -1,0 +1,46 @@
+name: Watchdog - collect schedule miss detector
+
+on:
+  schedule:
+    # 매일 18:00 KST(UTC+9) = 09:00 UTC — collect.yml의 10:15 KST 스케줄과
+    # 관측된 최대 지연(5h45m)을 감안한 버퍼를 둔 시각. docs/adr/0006 참고.
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  actions: write # collect.yml 실행 이력 조회 + workflow_dispatch 트리거용
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Check last collect.yml run and self-heal if missed
+        run: |
+          THRESHOLD_HOURS=22
+          LATEST=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow=collect.yml \
+            --json status,conclusion,createdAt --limit 20 \
+            --jq '[.[] | select((.status=="completed" and .conclusion=="success") or .status=="in_progress" or .status=="queued")] | sort_by(.createdAt) | last')
+
+          if [ -z "$LATEST" ] || [ "$LATEST" = "null" ]; then
+            MISSED=true
+            DIFF_HOURS="N/A"
+          else
+            LATEST_EPOCH=$(date -d "$(echo "$LATEST" | jq -r '.createdAt')" +%s)
+            DIFF_HOURS=$(( ($(date +%s) - LATEST_EPOCH) / 3600 ))
+            if [ "$DIFF_HOURS" -ge "$THRESHOLD_HOURS" ]; then
+              MISSED=true
+            else
+              MISSED=false
+            fi
+          fi
+
+          if [ "$MISSED" = "true" ]; then
+            echo "::error::collect.yml이 ${THRESHOLD_HOURS}시간 이상 성공/진행 실행되지 않음(마지막 확인: ${DIFF_HOURS}시간 전) — 스케줄 누락으로 판단, self-heal 재실행 트리거"
+            gh workflow run collect.yml --repo "$GITHUB_REPOSITORY"
+            exit 1
+          fi
+
+          echo "정상: 최근 실행이 ${DIFF_HOURS}시간 전 확인됨"
