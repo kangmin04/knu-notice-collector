@@ -128,7 +128,7 @@ export const sites = [
   {
     id: "contestkorea",
     name: "콘테스트코리아",
-    url: "https://www.contestkorea.com/",
+    url: "https://www.contestkorea.com/sub/list.php?int_gbn=1&Txt_bcode=030310001",
     parser: "contestkorea",
     category: ["공모전", "해커톤"],
     target: "전국",
