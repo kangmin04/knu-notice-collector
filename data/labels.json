@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "3d139baa-9dec-8149-8edb-dc18b1713da2",
+    "title": "제 11회 한국 리눅스 커널 개발자 모임",
+    "url": "https://event-us.kr/klkd/event/133026",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-81e3-8b9e-eda31fe46e07",
+    "title": "[무료 세미나] 과제·시험에 바로 쓰는 AI 학습 워크플로우",
+    "url": "https://event-us.kr/hanbitacademy/event/133082",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-819d-b119-e18d55bad6bf",
+    "title": "(기간연장) 제18회 전국 초·중·고 iM환경일기 대회",
+    "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81d7-91b1-e85902a0a2f0",
+    "title": "[부산글로벌게임센터] Bu:net 컨퍼런스 참여자 모집",
+    "url": "https://okky.kr/articles/1563407",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-81f7-a799-d31c62927aa9",
+    "title": "「2026 블록체인 밋업데이(BCMD)」 23회차 교육생 모집",
+    "url": "https://okky.kr/articles/1563414",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-812b-aeab-e0131fbf6ae9",
+    "title": "원펀치 랄프톤 in Busan 시즌 2 참가자 모집",
+    "url": "https://okky.kr/articles/1563431",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-812e-b6e8-f43999188130",
+    "title": "[휴이노] Field Application Engineer",
+    "url": "https://linkareer.com/activity/348236",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-8149-926a-cecebce2e3e1",
+    "title": "[인코스 파트너스] CJ ENM DIA TV 마케팅 사무보조 모집",
+    "url": "https://linkareer.com/activity/348237",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-8107-9a6b-e5fce6241bcf",
+    "title": "2026년 안전교육 영상 공모전",
+    "url": "https://linkareer.com/activity/348238",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-811b-9eb1-eff1a2da9fde",
+    "title": "2026년 장애인식개선 숏폼 공모전",
+    "url": "https://linkareer.com/activity/348239",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81bd-ae00-d75e33bf6390",
+    "title": "[에코프로비엠] 통상지원 경력 채용",
+    "url": "https://linkareer.com/activity/348241",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-8134-86cf-ebb6cd061d19",
+    "title": "[카펙발레오] T/C 보전팀 사무직(정규직) 신입 채용",
+    "url": "https://linkareer.com/activity/348242",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81b6-b184-c9f84d772f10",
+    "title": "[에코프로비엠] 헝가리법인 현지 채용",
+    "url": "https://linkareer.com/activity/348247",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81c2-8e7a-d276327ba904",
+    "title": "[SM엔터테인먼트] 공연기획 담당자 채용 (신입/경력)",
+    "url": "https://linkareer.com/activity/348248",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81a5-8060-da6b1995556f",
+    "title": "[에코프로비엠] R&D부문 미래전략팀 경력 채용",
+    "url": "https://linkareer.com/activity/348251",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-8181-8474-e9010fc64966",
+    "title": "[애경산업] [정규직/경력] 경영기획 담당자",
+    "url": "https://linkareer.com/activity/348253",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-8155-94d1-c47024c1ca87",
+    "title": "UNIVERSE BEAUTY 서포터즈 1기 모집",
+    "url": "https://linkareer.com/activity/345427",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-8146-915d-faf16e8ec766",
+    "title": "해커스금융 인강 서포터즈 3기 모집",
+    "url": "https://linkareer.com/activity/345031",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81c4-9439-f52ecb6ac189",
+    "title": "[명지대학교X위포트] 2026 하반기 &#x27;실전면접&#x27; 대비 대기업/공기업 취업전략특강",
+    "url": "https://linkareer.com/activity/348001",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-81c6-a17b-f72b4a9536d0",
+    "title": "한국표준협회_[충청 ICT]  Develop Career : 생성형 AI 교육 메인 배너 이미지",
+    "url": "https://linkareer.com/activity/341746",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-8124-a31f-dd622d573556",
+    "title": "[시리즈A투자유치/문토] 프로덕트 오너(PO) l 신입·경력 (역삼역)",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49915198?sc=729&traceId=356a1c35acea21b32ac77f13a7ef4ea1&sn=103",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-81c4-b371-f4afc2e234c1",
+    "title": "k-뷰티 브랜드 미다(MIDHA) 26년 하반기 부문별 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49907156?sc=729&traceId=356a1c35acea21b32ac77f13a7ef4ea1&sn=103",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-810c-9c67-d48dc8abe83e",
+    "title": "(주)덴탈비서 플랫폼 PM 경력채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49778079?sc=729&traceId=356a1c35acea21b32ac77f13a7ef4ea1&sn=103",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-8135-a8cb-cde2025d8992",
+    "title": "IT 기획 / 스마트팩토리 PM(프로젝트 매니저) 채용 (서울 가산동 근무)",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49916499?sc=729&traceId=356a1c35acea21b32ac77f13a7ef4ea1&sn=103",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-815e-aff3-eea2d05791fa",
+    "title": "[안랩] 2026년 9월 신입/경력 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49916989?sc=729&traceId=356a1c35acea21b32ac77f13a7ef4ea1&sn=103",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81e3-973f-dacee09aa9c2",
+    "title": "2026 샘표식품 신입/경력 수시채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49917517?sc=729&traceId=356a1c35acea21b32ac77f13a7ef4ea1&sn=103",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81fb-91a8-f79b958b34cf",
+    "title": "㈜KSS해운 - 회계부문 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54893750",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81db-afb7-f571282b79b3",
+    "title": "BKR 버거킹 사업부 - 플레임 그라운드 라인쿡(매장직/ 계약직) 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54934020",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81f6-b16a-fdf5c14de8a7",
+    "title": "HKS인베스트먼트 - 디블록그룹(구.한호건설그룹)부문별 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54940393",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81ea-85ab-cbfa7b3f2699",
+    "title": "에이치에스지중공업 - 경력/신입사원 모집 [창원/사천공장]",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54927580",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81b8-9322-f6623e7b10a0",
+    "title": "쿠팡풀필먼트서비스 - 2026년 고교졸업자 물류사원Fast Track 공개채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54941884",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81f1-81cf-f61db85ba38d",
+    "title": "에이에스엠엘코리아㈜ - 2026년 하반기경력 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54940058",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-8178-a8a3-e391371d3bac",
+    "title": "(주)녹십자 - 2026년 3Q 경력직/계약직 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54914324",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-814e-9a65-c5bd586f46d6",
+    "title": "㈜플러스에이블 - 영업팀 MD 및 웹디자이너경력직 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54942806",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81cb-9dfc-dc0d56f79bad",
+    "title": "10. 실습진행/최신 ChatGPT 실전 활용 & AI 업무자동화 완전정복- 실습ㆍ구축 2차 세미나",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040410001&str_no=202609020082",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-81d2-8238-c5c20bfb3b6d",
+    "title": "1. [강남AI학원] 65일 만에 끝내는 '생성형 AI 광고 콘텐츠 제작' 전문가 과정 (국비지원)",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040410001&str_no=202609030044",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-81af-a494-d1021f942ebb",
+    "title": "3. 제3회 긍정의힘 마라톤",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030810001&str_no=202609020010",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-8150-a724-ce02340f04f3",
+    "title": "2. [ 2026 군인권보호관 숏폼 공모전 ] 군인권보호관을 쉽고 재미있게 알려주세요!",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202609010047",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81fc-9351-d06f5f3a7696",
+    "title": "1. 2026 스포츠토토 숏폼 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030810001&str_no=202609020086",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81d1-8e85-cdaeb18d908f",
+    "title": "아이디어•건축•창업 2026년 서울창업센터 관악 관악S밸리 창업 페스티벌 '창업 아이디어 경진대회' 참가자 모집",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202609030008",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-816b-8216-e798d17e09f2",
+    "title": "미술•디자인•웹툰 대한불교조계종 및 사찰 콘텐츠 기반 문화상품 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202609030012",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-810e-b1c8-c26836d83c6b",
+    "title": "음악•콩쿠르•댄스 게임 '블랙아웃: 제로포인트' BGM 음원 공모전 레모네이션",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030910001&str_no=202609030028",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-817f-8972-ede125918a28",
+    "title": "아이디어•건축•창업 청각장애 인권수호 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202609030048",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-811d-85f5-c0f54fa53a2d",
+    "title": "사진•영상•영화제 [2026 디지털헤리티지페스타] AI 헤리티지 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202609030057",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81fe-b9e5-dcbd6969a624",
+    "title": "문학•문예 [대한결핵 및 호흡기학회] 제23회 폐의 날 기념 우리 가족 폐질환 이야기 수기 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609030061",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-8142-8176-c4ddf5c57f3c",
+    "title": "요리•뷰티•배우•오디션 2026 INNIT BOY AUDITION <HIDDEN ACE>",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031610001&str_no=202609030064",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-8126-b76d-f8aa0186a391",
+    "title": "문학•문예 2026 노벨피아 우주최강 웹소설 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609030067",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-819f-9666-e47524443ff3",
+    "title": "스포츠 원주사랑(단종역사트레킹) 참가자 모집",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030810001&str_no=202608210036",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81f9-93fc-cc5e4f40a112",
+    "title": "아이디어•건축•창업 도시가스 수요관리 활성화 아이디어 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202608240040",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-8132-be25-f69c3b12f30c",
+    "title": "The 다양한 분야 2026 시즌 스타디움 오픈 공기게임 대회",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031810001&str_no=202608260043",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-81aa-b401-c4bf5bed967a",
+    "title": "[창업지원단] 「모두의 창업 프로젝트(2차)」지역별 순회 설명회(대구 2차) 안내",
+    "url": "https://www.knu.ac.kr/wbbs/wbbs/bbs/btin/viewBtin.action?bbs_cde=&btin.bbs_cde=&btin.doc_no=1338306&btin.appl_no=000000&btin.page=/%3E&btin.search_type=&btin.search_text=&popupDeco=&btin.note_div=row&menu_idx=73",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-811b-9e50-c56b12935501",
+    "title": "<2026 블록체인 밋업데이> 23차시 교육생 모집 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_4&wr_id=718",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-8107-947c-d09210d64277",
+    "title": "[현대해상] 2026 현대해상 대졸 신입사원 채용 (~9/21월 18시까지)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1872",
+    "label": true
+  },
+  {
+    "id": "3d139baa-9dec-8131-9580-dd579095cdc3",
+    "title": "[커리어] 한국교육방송공사 2026년 9월 계약직원 공개채용 공고(~9/11)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1873",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-8115-a842-dc4727d1a4ac",
+    "title": "[(주)두산 사업부문] 2026 하반기 신입사원 채용 오픈 카톡 상담회 (09/09)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1874",
+    "label": false
+  },
+  {
+    "id": "3d139baa-9dec-815e-a0bb-fd7817ed48a9",
+    "title": "[AI부트캠프사업단] 공통교과목 일부 변경 및 동계 현장실습 예정 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29422",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-81ed-bd1b-f82b804afcb5",
+    "title": "2026 인하 인공지능 챌린지",
+    "url": "https://dacon.io/competitions/official/236736/overview/",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-8198-a022-d6120076f1e7",
+    "title": "제5회 한국디지털문학상 공모",
+    "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110378",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-815e-ae20-ce5ca6b5460a",
+    "title": "⛵ [카카오 AI 돛 Summit 26 개최 안내]",
+    "url": "https://okky.kr/articles/1563275",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-8153-9e2e-d467c88d0d68",
+    "title": "[9/8 세미나/무료] 생성형 AI로 만든 웹서비스, DB 연동하고 배포까지",
+    "url": "https://okky.kr/articles/1563284",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-8150-8474-ee458aa14dc8",
+    "title": "2026 서울관광재단 비짓서울 API 데이터‧AI 활용 아이디 공모전 (~9/14) / 총 상금 500만원",
+    "url": "https://okky.kr/articles/1563286",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-81dc-a9e8-c8f502641426",
+    "title": "[무료교육/점심제공] 「2026 대구 블록체인 밋업데이」 2회차 교육생 모집 (~9/11)",
+    "url": "https://okky.kr/articles/1563325",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-8161-8569-f5069ab21fc0",
+    "title": "[코스맥스] 생산기술팀(기계) 신입 및 경력사원 채용",
+    "url": "https://linkareer.com/activity/347989",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-810e-81ad-eed56f0e564f",
+    "title": "[오토닉스] [영업] 해외영업 담당자(스페인어·포르투갈어 우대) - 신입/경력 무관",
+    "url": "https://linkareer.com/activity/347994",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8186-bbc1-e740703a3f7d",
+    "title": "[세아제강] 2026년 세아제강 본사 사무행정직(계약) 채용",
+    "url": "https://linkareer.com/activity/347997",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-818a-b6d7-e7f7c68c7510",
+    "title": "[NetsPresso] Physical AI Researcher Intern (체험형)",
+    "url": "https://linkareer.com/activity/348004",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-8112-8f06-fe8e18e77eeb",
+    "title": "[로렌츠] 로렌츠 파머스 5기 모집",
+    "url": "https://linkareer.com/activity/348007",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-81a5-9cb2-e0e16f46631c",
+    "title": "[엠디스픽] 엠디스픽 공식 크리에이터 크루 1기 모집",
+    "url": "https://linkareer.com/activity/348009",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8189-a61f-ca36d85b3624",
+    "title": "공공언어 개선을 위한 표어 공모전",
+    "url": "https://linkareer.com/activity/348012",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81e0-974d-cab1df94fcb1",
+    "title": "[포항문화재단] 2026 포항국제음악제 서포터즈[POCO] 모집 공고",
+    "url": "https://linkareer.com/activity/348016",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81eb-9af9-ead54d537a02",
+    "title": "[강원랜드] 2026 강원랜드 국민혁신단 모집공고",
+    "url": "https://linkareer.com/activity/348019",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-818d-9ae5-e5109c0b7850",
+    "title": "2026 한국석유관리원 시민참여혁신단 모집",
+    "url": "https://linkareer.com/activity/348024",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81b5-8d6f-f4cac9e261fe",
+    "title": "2026 엑시나 인재 신입 학사 및 석박사 채용",
+    "url": "https://linkareer.com/activity/347910",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81b6-aac6-fb0031e10102",
+    "title": "2026년 제6회 K-인공지능 제조데이터 분석 경진대회",
+    "url": "https://linkareer.com/activity/345299",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-8142-a8b8-d43b62b41316",
+    "title": "와이즈버즈_[아모레퍼시픽] 설화수 설화프로젝트 시즌4 (~9/20) 캠페인 핫라인 배너 이미지",
+    "url": "https://linkareer.com/activity/347081",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81dd-b774-cf123aca04cd",
+    "title": "경영기획 · 전략수립 KPI. OKR. MBO 성과관리자 채용합니다.",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49735909?sc=729&traceId=d3a09a2ec6e78ececdc75035b0232410&sn=103",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-813b-8479-c01c1574e9b9",
+    "title": "안국약품㈜ 9월 신입 및 경력직 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49911443?sc=729&traceId=d3a09a2ec6e78ececdc75035b0232410&sn=103",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81c4-a3ba-f7162980fc75",
+    "title": "[원할머니 본사] 2026년 하반기 분야별 경력직 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49910996?sc=729&traceId=d3a09a2ec6e78ececdc75035b0232410&sn=103",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8101-a373-d04b61667813",
+    "title": "[(주)네오컴즈] 경력 PM/PL 채용 공고",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49897971?sc=729&traceId=d3a09a2ec6e78ececdc75035b0232410&sn=103",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81fe-8bbb-c9335cd8e0d5",
+    "title": "[예스폼] B2B SaaS 프로덕트 매니저(PM) - HR·급여 서비스",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49910119?sc=729&traceId=d3a09a2ec6e78ececdc75035b0232410&sn=103",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-81bf-b3e8-c093e1fa0f89",
+    "title": "[판교/AI 스타트업] 시티아이랩(주) 사업 기획자(PM) 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49916133?sc=729&traceId=d3a09a2ec6e78ececdc75035b0232410&sn=103",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81f7-9bc4-c42b20312c05",
+    "title": "모나미 부문별 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49908784?sc=729&traceId=d3a09a2ec6e78ececdc75035b0232410&sn=103",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8101-af05-f5e298f18d2d",
+    "title": "GS칼텍스 2026년 하반기 신입/경력사원 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49873619?sc=729&traceId=d3a09a2ec6e78ececdc75035b0232410&sn=103",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81b7-90ee-df5788ecad76",
+    "title": "신라아이파크면세점 용산 히든 스팟 영상·사진 공모전",
+    "url": "https://www.all-con.co.kr/hit/contest/4486",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8139-b0b6-f5990816c6cc",
+    "title": "새터데이스킨 대학생 SNS 뷰티 서포터즈 2기",
+    "url": "https://www.all-con.co.kr/hit/contest/4484",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8186-a231-e995bff891b5",
+    "title": "2026 아브뉴프랑 어린이 가족 미술제 대학생 서포터즈 모집",
+    "url": "https://www.all-con.co.kr/hit/contest/4483",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81a6-bd95-e8911e699f60",
+    "title": "제 11회 2026 KOREA 월드푸드 챔피언십",
+    "url": "https://www.all-con.co.kr/hit/contest/4482",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81fd-937c-c2a4555b1860",
+    "title": "2027 KT&G 국제 대학생 창업교류전(ASVF) 한국대표 모집",
+    "url": "https://www.all-con.co.kr/hit/contest/4491",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-812c-8714-ee7621bd1723",
+    "title": "롯데 밸유 for ESG 5기 대학생 봉사단 모집",
+    "url": "https://www.all-con.co.kr/hit/contest/4485",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-8194-81af-f91b00b58bbb",
+    "title": "교보교육재단 제10회 책갈피 독서편지 공모전",
+    "url": "https://www.all-con.co.kr/hit/contest/4481",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-813d-afc1-fa7309b3a4ff",
+    "title": "2026년 제6회 K-인공지능 제조데이터 분석 경진대회",
+    "url": "https://www.all-con.co.kr/hit/contest/4480",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-81b8-9e1e-e5a0835a36ad",
+    "title": "롯데쇼핑(주) - [롯데백화점] 9월 대규모 채용(전문직무직)",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54924524",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-816b-ad51-ebe89c5c9431",
+    "title": "DSR제강㈜ - 사무지원 (생산관리 전문직)신입/경력 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54876426",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-817a-a8ff-f25596c8ee01",
+    "title": "대보건설㈜ - 각 부문 경력직 수시채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54923660",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8123-bdb5-f51447d5054f",
+    "title": "(주)제뉴원사이언스 - 2026년 하반기 각 부문별 모집",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54921653",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-814b-b0c3-c541fedbdcc8",
+    "title": "㈜씨텍 - 2026년 신입사원 채용(LG화학/롯데케미칼 계열사)",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54929329",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81ad-8eaa-e205d320b23d",
+    "title": "(재)한국기계전기전자시험연구원 - 2026년 하반기신입 및 경력 직원 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54923115",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8172-a037-f4cefd5e1307",
+    "title": "㈜DN솔루션즈 - 신입/경력사원수시채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54921654",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81e7-ba94-e94f14ce717c",
+    "title": "신용보증기금 - 2026년 하반기신입직원 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54922178",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81e6-9afe-e837905c175d",
+    "title": "3. 청정수소 생산ㆍ기술개발 최신 동향과 원가경쟁력 확보 및 대응전략 세미나",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040410001&str_no=202609020081",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-8112-8c58-c2c3d021f64b",
+    "title": "4. 2026년 기후행동 실천모임 모집 공고",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040210001&str_no=202609020076",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81b7-9346-e0d17ea4a0ad",
+    "title": "3. 2026년 지역경제 혁신박람회",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040510001&str_no=202609010017",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-817d-bdfa-cd834f65c0c8",
+    "title": "2. 헤럴드 기업포럼 2026",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040410001&str_no=202609030005",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-813b-9d4f-cdcff3be5a49",
+    "title": "1. [3 D 설계 역량 강화 프로그램] 자동차소재부품 관련 기구설계 및 장비 교육 실습",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040410001&str_no=202609030051",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81e2-9661-fb8f3f5fc52b",
+    "title": "8. The 6th NN Arts 전국 아마추어 성악 콩쿠르",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030910001&str_no=202609020020",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81d8-b09b-cf9aede0c73c",
+    "title": "7. 2026 전국 로켓피치 경진대회",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202609020026",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81da-b186-c371d644f55d",
+    "title": "6. 2026 GoodNovel 웹소설 공모전 《금단의 사랑》",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609020053",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8122-901e-f117a87cfbec",
+    "title": "3. 2026 추계학술대회 대학생 ERP 아이디어 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608310024",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-81d9-8c2d-e988d82ef58a",
+    "title": "2. 2026 이순신관광체험센터 미디어월 미디어아트 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202608300001",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-812e-9430-cd586c4a4a84",
+    "title": "문학•문예 2026 한 권의 책 전국 독후감 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609020019",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8194-8144-ea0e47583fe2",
+    "title": "아이디어•건축•창업 사진•영상•영화제 유스업(Youth UP!) 제1회 SDGs 실천 아이디어·숏츠 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202609020032",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-815f-9786-c58a7a7ab299",
+    "title": "사진•영상•영화제 2026 조류사진 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202609010041",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8163-a7bb-fb616446d93c",
+    "title": "아이디어•건축•창업 2026년 기관경영혁신 국민아이디어 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202609020054",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81e4-9b2c-c14c8472f8ac",
+    "title": "문학•문예 2026 김유정 어린이 글짓기 대회",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609020056",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-815d-acc8-f9f06b146dca",
+    "title": "학문•과학•IT 2026 서울관광재단 비짓서울 API 데이터‧AI 활용 아이디어 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202609020060",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-8190-b12a-d7f2daa6f150",
+    "title": "아이디어•건축•창업 2026년 한국환경보전원 대국민 환경혁신 아이디어 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202609020061",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-81e2-b81c-cdaf4ad791e7",
+    "title": "사진•영상•영화제 제1회 세대공감 PR아이디어 대상 영상 콘텐츠 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202609020063",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81f0-80a0-df2bb0898c5e",
+    "title": "미술•디자인•웹툰 생명을 그리는 손, 당신의 심폐소생술 스토리 캐릭터 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202609020074",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8151-9303-df5635705ef2",
+    "title": "미술•디자인•웹툰 제 23회 세계어린이민화그리기 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202609020083",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81c1-9143-f09597502774",
+    "title": "아이디어•건축•창업 [삼성화재 모빌리티뮤지엄] 제7회 오늘도 안전하게! 어린이 교통안전 그리기 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202609020088",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81de-9da4-c62849a1b635",
+    "title": "음악•콩쿠르•댄스 2026 K-얼 화통한 대축제 청년국악공연 ‘화통(和統)’ 출연자 모집 공고",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030910001&str_no=202609030062",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81df-a8ad-c1b4387c0889",
+    "title": "「수성 알파시티 기업 전용 저궤도 위성 통신망 서비스」 지원 대상 기업 모집 공고(2차)",
+    "url": "https://dgtp.or.kr/bbs/BoardControllView.do?bbsId=BBSMSTR_000000000003&nttId=15726",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-81ad-b23c-ec545e7f9a42",
+    "title": "[교수학습센터] 2026학년도 2학기 대학원생 학습코치(첨성인 학습PT) 모집안내",
+    "url": "https://www.knu.ac.kr/wbbs/wbbs/bbs/btin/viewBtin.action?bbs_cde=&btin.bbs_cde=&btin.doc_no=1338296&btin.appl_no=000000&btin.page=/%3E&btin.search_type=&btin.search_text=&popupDeco=&btin.note_div=row&menu_idx=73",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8135-8f60-fd3684603b30",
+    "title": "[소프트웨어재난연구센터] 9월 초청 세미나 일정 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_4&wr_id=717",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-816e-b9fe-f85dc53a9743",
+    "title": "[스펙업] 2026년 9월 2일 채용 및 대외활동 정보",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1869",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-8143-ae5e-dd2c9d0d39b7",
+    "title": "[KT&G] 2026년 하반기 KT&G 신입사원 채용(~9/10(목) 15시까지)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1870",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81e6-afcb-c5e08cd56b4e",
+    "title": "[진로취업과] 유학생 진로·취업 설문조사 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1871",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8169-b1f9-feef4659a2d7",
+    "title": "[졸업] 인공지능컴퓨팅전공(인컴) 졸업기준 ☆필독☆",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29415",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81eb-9174-d0b72eb836a6",
+    "title": "[학‧석사통합과정] 2027년 2월 졸업예정자 졸업신청서 제출 안내(~9.10.오전)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29416",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81a5-8aa9-cdcfdf3c26a4",
+    "title": "[교직] 2026학년도 2학기 교직 적성 및 인성검사(1차) 시행 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29417",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-81ee-8580-ddb5adeac433",
+    "title": "2026학년도 신입생 대상 진로적성검사 실시 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29418",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-8111-8f59-ca985de0f5cf",
+    "title": "2026년도 상반기분 통영시 대학생 학자금 이자 지원 사업 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29419",
+    "label": false
+  },
+  {
+    "id": "3d039baa-9dec-817f-a819-e0214067e234",
+    "title": "2026학년도 2학기 AI학업장려 학자금 대출 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29420",
+    "label": true
+  },
+  {
+    "id": "3d039baa-9dec-8131-99f3-d3b92e5d7d29",
+    "title": "2026년 하반기 학생 재난안전 현장 체험교육 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29421",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8195-8233-dc4692f81827",
+    "title": "2026 내가 알리는 모두의 「희망사다리」영상 공모전",
+    "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=109624",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8165-8af8-e37d03c1adaa",
+    "title": "[09.18/실습진행] 최신 ChatGPT 실전 활용 & AI 업무자동화 완전정복- 실습ㆍ구축 2차 세미나",
+    "url": "https://okky.kr/articles/1563213",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-8139-8fc9-dc8862adc7cb",
+    "title": "[충남대학교 COSS] Web3 시대의 블록체인 AI 융합 해커톤 참가자 모집",
+    "url": "https://okky.kr/articles/1563224",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-811b-8363-edb40242584a",
+    "title": "[9/19, 10/10] AX 리더, K-FDE 전문가 양성과정 저자 무료 공개강연",
+    "url": "https://okky.kr/articles/1563256",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-81ab-958e-f16f31c8c302",
+    "title": "합병 법무법인 명칭 공모",
+    "url": "https://linkareer.com/activity/347523",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-816d-be87-f8f337d99e48",
+    "title": "[세이브더칠드런코리아] [마케팅혁신팀] 마케팅 전략기획 및 리서치 담당",
+    "url": "https://linkareer.com/activity/347539",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-810e-b33f-e6a3009b37dd",
+    "title": "[샘표식품] 미생물 발효기반 장류제품 연구 (오송, 정규직)",
+    "url": "https://linkareer.com/activity/347542",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8196-a77b-fe2606055903",
+    "title": "[세이브더칠드런코리아] [인도적지원·기후위기대응1팀] 기후위기대응 및 아동보호 사업 담당",
+    "url": "https://linkareer.com/activity/347543",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-819e-b0c4-c6c7ca719705",
+    "title": "17회 광주여성영화제 자원활동가 귀니 모집",
+    "url": "https://linkareer.com/activity/347547",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81d4-9ac4-cb287abe67a0",
+    "title": "[샘표식품] 제품 연구개발(레토르트 식품) (정규직)",
+    "url": "https://linkareer.com/activity/347548",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-811e-acb2-dc10a7c27520",
+    "title": "2026 서대문구 숏폼 콘텐츠 공모전",
+    "url": "https://linkareer.com/activity/347550",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8150-a72e-e74c15aad471",
+    "title": "[샘표식품] 제품 연구개발(한식소스/FS제품/수출제품) (정규직)",
+    "url": "https://linkareer.com/activity/347551",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81f5-8b7d-d45bd91408c3",
+    "title": "[샘표식품] 미생물 발효소재 연구 (오송, 정규직)",
+    "url": "https://linkareer.com/activity/347553",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81f4-8600-cd588af7a8d3",
+    "title": "[샘표식품] 펩리치 소재 미생물 발효 응용 연구 (오송, 정규직)",
+    "url": "https://linkareer.com/activity/347555",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-816e-9918-cbf9f6544dd7",
+    "title": "[모집] 대학생 기후환경리더 양성과정 9기 참가 신청",
+    "url": "https://linkareer.com/activity/343977",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81ff-bd75-fec0f83907ea",
+    "title": "초보자도 쉽게 배워 바로 쓰는 생성형 AI 활용 마케팅",
+    "url": "https://linkareer.com/activity/347182",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-81d5-bb73-ffb789ee623a",
+    "title": "[SSG.COM] 쓱7크루(SSG7CLUB CREATIVE CREW) 2기 모집",
+    "url": "https://linkareer.com/activity/345734",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81ba-b995-ed6aac6814d0",
+    "title": "&#x27;내가 찾는 좋은느낌&#x27; 브랜드 메시지 기획, 제안 프로젝트 참가자 모집",
+    "url": "https://linkareer.com/activity/347143",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-817f-a76c-cdf1997f291b",
+    "title": "빅데이터 및 인공지능 분야 PM 모집 공고",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49886110?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-8122-92db-e83d31c354a4",
+    "title": "[에듀윌] AI사업팀 팀원급 경력직 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49886962?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-815e-8173-e1c065595200",
+    "title": "웹툰/웹소설 플랫폼의 서비스 기획자 채용 (정규직)",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49893334?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81c1-8e17-f8ec9a6cce2b",
+    "title": "[아이티 펍] PM,PO&서비스 기획 차/부장급 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49890022?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81b7-9059-d7c75477d46f",
+    "title": "2026년 하반기 포스코그룹 신입사원/연구원 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49896217?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8125-9191-dbd3a801764f",
+    "title": "[제너시스BBQ] 자사 앱 서비스 기획 (PO/PM)",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49730817?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8175-b83a-f7edd288b361",
+    "title": "[송파] AX(AI전환) 정부 지원사업 기획 및 총괄 운영자 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49900230?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8166-a0f1-cd30db3fcd7d",
+    "title": "신사업 기획·개발 PM 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49719526?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-813c-8b86-ce66f06b3aee",
+    "title": "B2B 플랫폼 서비스기획자 / PO (Product Owner)",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49842499?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8113-88e7-c25098169ad0",
+    "title": "[신한은행] Super SOL 서비스 PO(Product Owner) 경력직 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49905445?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-816a-b5e4-f68953aa75ad",
+    "title": "AI 기반 서비스기획(PM) 경력 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49894357?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81d8-aff8-c2c87cbc5e64",
+    "title": "미디어로그(LG그룹) 경력사원 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49891985?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81df-bce1-f93d35acd604",
+    "title": "2026년 신입 및 경력 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49895485?sc=729&traceId=7cda4ee94c5a6255172f66cf73c91cfa&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-813c-9e69-edd3f3db79a9",
+    "title": "대한상공회의소 - 기업지원실 교육 운영담당자 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54914734",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-818d-ba2f-def55facbf9b",
+    "title": "(주)포스코 - 2026년 하반기생산기술직 인턴 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54901240",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8121-974d-d6f1eca6b26e",
+    "title": "주식회사 파사드패턴 - MD팀 세일즈 파트 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54912825",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-810d-850e-d7cbf15ce167",
+    "title": "(주)포스코 - 26년 하반기신입공채",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54906465",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81c3-87cb-ff367284e250",
+    "title": "㈜비케이알 팀홀튼 - 6차 정규직 운영관리직 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54912058",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81f1-8ef1-dc0e1b2df72c",
+    "title": "㈜지에스네트웍스 - 물류센타 현장냉동 피킹담당 신입",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54918306",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8173-8803-ef8f9f815ee5",
+    "title": "GS건설(주) - 현장설계/건축/설비/전기PJT전문직 모집",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54913523",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-810c-bfc7-f73da13a516d",
+    "title": "(주)보령바이오파마 - 제제연구팀/ETC 마케팅재무/영업관리 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54915085",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81cc-96ed-ef5ee88d85ec",
+    "title": "㈜지에스네트웍스 - 물류센타 현장 피킹인턴 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54918256",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-818f-a308-c7026d7ff025",
+    "title": "금호타이어(주) - 26년 하반기 채용(신입/경력)",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54908558",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-810b-91f4-f108915809b1",
+    "title": "(주)포스코퓨처엠 - 신입/경력사원채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54914177",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81f4-b433-c59c4f0eb203",
+    "title": "4. 컨디션 대학생 서포터즈, 컨디션 C.R.E.W 2기",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040110001&str_no=202609010004",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81dd-916b-dd283c43852b",
+    "title": "3. [5만원] 영덕 2박 3일 여행+봉사! 대학생·대학원생·청년 참가자 모집",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040210001&str_no=202609010037",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-81bf-8757-d62f7bae1316",
+    "title": "2. [관계자 외 출입 가능] 남동산단 청년 콘텐츠 해커톤 참가 신청",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040410001&str_no=202609010101",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-8172-8446-fc0141c4682a",
+    "title": "1. [실전 코드 레벨] NVIDIA Alpamayo 기반 차세대 E2E VLA 자율주행 구현 전략 세미나",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040410001&str_no=202609010014",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-8130-9716-da2e3cc78d57",
+    "title": "5. [2026년 J-STEM Challenge] 전북 청소년 미래공학 경진대회",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202609010081",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81c0-a953-e3b461dd588e",
+    "title": "4. 2026 인천 관광스타트업 IR데이 참가기업 모집",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202609010092",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-8194-a16e-fe72aaf80825",
+    "title": "1. 2026 SK텔레콤 장애청소년 행복 AI 챌린지 대회 신청 접수",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608270047",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-816b-8832-f1d94a199b36",
+    "title": "사진•영상•영화제 [세븐일레븐] K-비빔밥 AI 광고제 “ㄸ뚜ㅁ뜨뜨\"",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202609010098",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8123-a3bf-d1593a33573d",
+    "title": "미술•디자인•웹툰 [전남광역정신건강복지센터] 2026 정신건강의 날 기념 『정신건강 캐릭터』공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202609020004",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8148-846d-f6f343cdfba5",
+    "title": "미술•디자인•웹툰 2026 한국유교문화축전 사생대회",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202609010060",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81cc-91c2-f0245233290d",
+    "title": "문학•문예 2026년 제35회 부산자랑 시민예술제 하반기 백일장 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609010070",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8195-a954-db1c1644e8cd",
+    "title": "아이디어•건축•창업 2027 KT&G 국제 대학생 창업교류전(ASVF) 한국대표 모집",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202609010071",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-81ba-8f9b-de39429b6bc7",
+    "title": "사진•영상•영화제 2026 한미동맹주간 숏폼 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202609010078",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81ed-acad-d9d53b47682e",
+    "title": "The 다양한 분야 「무계로 세계로 블루마블」 리그 오브 레전드 무작위 총력전 : 아수라장 — 선수 모집",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031810001&str_no=202609010082",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8118-a441-d6cc5c980e83",
+    "title": "학문•과학•IT 2026 데이터+AI 혁신챌린지 ‘데이터안심구역 경진대회’ 참가자 모집 안내",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202609010086",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-81da-a94f-e6618b026a9e",
+    "title": "학문•과학•IT 2026 제주 관광 데이터 활용사례 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202609010094",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-810e-b728-eb6fa9e687d8",
+    "title": "문학•문예 제34회 김유정 백일장 공모",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609010099",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8121-87ad-e45c00111ca1",
+    "title": "학문•과학•IT 2026 Meta Quset기반 차세대디스플레이 경진대회",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202609010102",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-819e-8a96-c89b6683e47f",
+    "title": "음악•콩쿠르•댄스 2026 달성피아노콩쿠르",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030910001&str_no=202609010103",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81e3-b7b6-fff4bc348f53",
+    "title": "2026 한미 한마음 x 어울림 ... 접수기간 26.08.20~26.09.10 평택시국제교류재단",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031610001&str_no=202609010090",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8113-b8c6-ddaef53fc31e",
+    "title": "올 하반기 공기업 채용 문 활짝…채용 확정률 75.6%로 급증",
+    "url": "https://news.incruit.com/news/newsview.asp?newsno=438363",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-810e-8d08-eeae1799c92c",
+    "title": "인크루트 X 유노북스 댓글이벤트",
+    "url": "https://help.incruit.com/event/eventview.asp?newsno=438361",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-812e-85c8-e0070db99c74",
+    "title": "2026 수성알파시티데이즈 안내",
+    "url": "https://www.dip.or.kr/home/notice/noticebbs/boardRead.ubs?sfpsize=10&fboardcd=notice&fboardnum=9229&sfpage=1",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-8168-9906-c4648a24c8f5",
+    "title": "2026년 과학기술분야 R&D 대체인력 활용 지원사업 4차 모집 공고",
+    "url": "https://dgtp.or.kr/bbs/BoardControllView.do?bbsId=BBSMSTR_000000000003&nttId=15725",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8124-a68d-cd8114ea95d0",
+    "title": "[창업지원단] 2026 앵커 대학 (예비)창업기업 사업화지원 참여기업 모집 안내",
+    "url": "https://www.knu.ac.kr/wbbs/wbbs/bbs/btin/viewBtin.action?bbs_cde=&btin.bbs_cde=&btin.doc_no=1338271&btin.appl_no=000000&btin.page=/%3E&btin.search_type=&btin.search_text=&popupDeco=&btin.note_div=row&menu_idx=73",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8104-8319-c472900c15ab",
+    "title": "[현대자동차] 현대자동차 9월 신입 채용",
+    "url": "https://home.knu.ac.kr/HOME/it/sub.htm?mode=view&mv_data=aWR4PTY5NyZzdGFydFBhZ2U9MCZsaXN0Tm89MjMzJnRhYmxlPWV4X2Jic19kYXRhX2l0Jm5hdl9jb2RlPWl0MTYyMzMxMDQzNyZjb2RlPXpvNjNXeFhzNTN1VCZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8155-9de8-f0069903f0c9",
+    "title": "[현대자동차] 현대자동차 9월 신입 채용",
+    "url": "https://home.knu.ac.kr/HOME/it/sub.htm?mode=view&mv_data=aWR4PTY5NyZzdGFydFBhZ2U9MCZsaXN0Tm89MjM0JnRhYmxlPWV4X2Jic19kYXRhX2l0Jm5hdl9jb2RlPWl0MTYyMzMxMDQzNyZjb2RlPXpvNjNXeFhzNTN1VCZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8134-ad38-d28ee4d1140c",
+    "title": "2026년 두산에너빌리티 리쿠르팅 진행 안내",
+    "url": "https://home.knu.ac.kr/HOME/it/sub.htm?mode=view&mv_data=aWR4PTY5OCZzdGFydFBhZ2U9MCZsaXN0Tm89MjM0JnRhYmxlPWV4X2Jic19kYXRhX2l0Jm5hdl9jb2RlPWl0MTYyMzMxMDQzNyZjb2RlPXpvNjNXeFhzNTN1VCZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-8120-bafa-f9aa096830d7",
+    "title": "2026학년도 하반기 캠퍼스 리크루팅 개최 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1865",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-8101-b5da-f7f3c225c38d",
+    "title": "[현대건설/신입채용] 2026년 하반기 신입사원 채용 (~9/29(화)까지)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1866",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8152-ac54-e2243abbf16f",
+    "title": "[현대건설/외국인 전형] 2026년 하반기 신입사원 채용 (~9/29(화)까지)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1867",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8150-8856-ddc0b7e66473",
+    "title": "[두산그룹] 2026년 신입사원 채용 안내 (~9/21 18:00)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1868",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81bb-96eb-c7002d7d0039",
+    "title": "2026학년도 「제5회 KNU 자기설계 융합전공 공모전」 개최 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29410",
+    "label": true
+  },
+  {
+    "id": "3cf39baa-9dec-81df-b887-ea7132d98761",
+    "title": "2026년도 하반기 익산시 대학생 학자금 대출이자 지원 사업 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29411",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-81a7-a6fc-efa66c61bd05",
+    "title": "2026년도 대구광역시 대학생 학자금대출 부담경감 지원사업 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29412",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-8118-8273-c89305e85b8a",
+    "title": "2026학년도 2학기 생활관생 후보자 3차 추가 모집 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29413",
+    "label": false
+  },
+  {
+    "id": "3cf39baa-9dec-817f-a7c7-fb9fc78d2347",
+    "title": "[필독] ABEEK 인정 과목 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29414",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-814a-8710-cc54dcfe0d4c",
+    "title": "2026 Quantum Nexus Conference",
+    "url": "https://event-us.kr/2026qnc/event/134251",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-813c-a421-df6b1edcae4e",
+    "title": "AI 에이전트 가드레일 & 거버넌스 실전 세미나",
+    "url": "https://okky.kr/articles/1563204",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8170-bd78-f1f88c210a04",
+    "title": "현업에 바로 쓰는 ‘하네스 엔지니어링’ 실습 교육",
+    "url": "https://okky.kr/articles/1563205",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8145-80c8-fc82ab78ccf7",
+    "title": "[제뉴원사이언스] 품질관리약사 모집(경력무관)",
+    "url": "https://linkareer.com/activity/347186",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8188-b0c6-c53d147934ed",
+    "title": "26년 6차 BKR 팀홀튼 운영관리(부점장) 신입/경력사원 채용",
+    "url": "https://linkareer.com/activity/347187",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8195-aeb0-e8accf4bd4c3",
+    "title": "비전공자도 쉽게 배우는 품질관리 AI 데이터분석 실습",
+    "url": "https://linkareer.com/activity/347188",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8188-a0ee-d5f4742e4ffa",
+    "title": "[SK플라즈마] 품질관리(QC) 신입(전환형 인턴) 모집",
+    "url": "https://linkareer.com/activity/347190",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81ef-a5cf-f4f42e6f4fcf",
+    "title": "[에고이즘] [바쏠] 브랜드 마케터",
+    "url": "https://linkareer.com/activity/347192",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81bf-92a4-ef18f9974066",
+    "title": "[코스맥스비티아이] HG그룹 A직군 신입사원 채용",
+    "url": "https://linkareer.com/activity/347193",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8183-9722-caa13233b514",
+    "title": "비전공자도 쉽게 배우는 전기차+2차전지 기초",
+    "url": "https://linkareer.com/activity/347196",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81cd-b830-d29c9bd56c9a",
+    "title": "[완도군] 2026년 완도군 규제개혁 아이디어 공모전",
+    "url": "https://linkareer.com/activity/347198",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8117-b462-d2967ff8f756",
+    "title": "[아무것도 하지 않아도 괜찮아] 신규 부원 모집",
+    "url": "https://linkareer.com/activity/347201",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81a6-bf1c-ebc3496d371e",
+    "title": "[국립생태원] 2026년도 국립생태원 경영혁신 아이디어 공모전",
+    "url": "https://linkareer.com/activity/347203",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8182-89ef-dc333de1686b",
+    "title": "AI 개발 프로젝트 PM 경력직 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49774224?sc=729&traceId=7cec828dd3a0dd8a5baecd14aec44bbc&sn=103",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81bc-96e1-fb1af311bfcc",
+    "title": "[진로탐색수업] 2026학년도 2학기 오리엔테이션 자료 게시",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYxNDYmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8100-8c24-c01638936cab",
+    "title": "[진로취업과] JOB PLAZA 스터디룸 이용 관련 공지사항 ('23. 12. 4.적용)",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTQ0MTAmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81f1-aacb-dfbc32206154",
+    "title": "[진로취업지원을 위한 상시 제휴서비스] 26학년도 이용 안내",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTQ2MjQmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81e4-9d4c-e07cfd605bc9",
+    "title": "[동문선배 e-멘토링] 현직자(졸업전 취업자 가능) 온라인 멘토 가입 안내(연중 상시)",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTUxNjYmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81d8-bd47-c8a0d8c5c909",
+    "title": "[진로취업과] 경북대학교 진로취업과 2026학년도 비교과 프로그램 로드맵",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTU4OTYmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81ea-8629-dd324dc2c280",
+    "title": "[고용노동부] 국민취업지원제도 안내",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTU5Mjgmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81c4-a581-e98ea73fee91",
+    "title": "[진로취업과] 2026학년도 「필기전형 온라인 학습 사이트」운영 안내",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTU5OTImc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81eb-b2fd-c7edf63494a0",
+    "title": "[경상북도경제진흥원] 2026 경북 청년애꿈수당 사업 안내",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYwMTcmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8185-9520-ef799bb421c9",
+    "title": "[진로취업과] 2026학년도 진로취업 경력개발장학금제 운영 안내",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYwMTgmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8124-b37c-fad187c377bb",
+    "title": "[2026 K-뉴딜 아카데미] 교육과정 및 신청 안내",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYwNjYmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-811f-9720-e399835a7737",
+    "title": "[진로탐색수업] 2026학년도 1학기 우수과제 선정 결과 및 상장 수령 안내",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYwOTcmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8179-8ac8-dc58e435e2d0",
+    "title": "[진로탐색수업] 2026학년도 2학기 수강 대상자 선발 결과 및 오리엔테이션 개최 안내",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYxMDMmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8143-a261-e84784e18f49",
+    "title": "[서류합격전략] 하반기 자소서 인사이트",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYxMDQmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8101-9947-eb49e7fabb85",
+    "title": "[멘토링] 하반기 동문선배 멘토링 '커넥트' (Part1. 대기업)",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYxMTEmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8151-aae9-fe9ea408a8aa",
+    "title": "[직무 프로젝트] KNU 직무 마스터 프로젝트",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYxMjEmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81fd-ab8e-f33a19f1aa4d",
+    "title": "[직무역량개발] 2026학년도「생성형 AI활용 취업준비 교육」",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYxMjImc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81f5-966a-e5b9cb31963a",
+    "title": "[직무역량개발] 2026학년도 하반기「국민연금공단 취업·미래설계 아카데미」",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYxMjMmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81d6-aa38-fe34dd43f29a",
+    "title": "[경북대 공과대학] 2026 공과대학 산학연 네트워킹데이(16개사 참여)",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYxMzMmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81d4-86c6-d0d8e13fa9b2",
+    "title": "[진로취업과] 2026학년도 자율전공 신입생 대상 「진로탐색 미션캠프」",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYxMzUmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8144-9df7-e31bd449fc7f",
+    "title": "[대학원혁신] 대학원생 취업서류 작성하기(학부생도 수강가능)",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYxMzcmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8115-9c0a-dd1c0792aedb",
+    "title": "[진로취업과] '26 하반기 캠퍼스 리크루팅 안내",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYxNDImc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81c5-889e-c23e3feb8c2a",
+    "title": "[취업박람회] 2026학년도 KNU-대구앵커 워라밸 취업박람회 개최 안내",
+    "url": "https://home.knu.ac.kr/HOME/knujob/sub.htm?mode=view&mv_data=aWR4PTYxNDMmc3RhcnRQYWdlPTAmbGlzdE5vPTcwMyZ0YWJsZT1leF9iYnNfZGF0YV9rbnVqb2ImbmF2X2NvZGU9a251MTYyMzgxNzE1OSZjb2RlPVZzRFgyN2RtdUtuVyZzZWFyY2hfaXRlbT0mc2VhcmNoX29yZGVyPSZvcmRlcl9saXN0PSZsaXN0X3NjYWxlPSZ2aWV3X2xldmVsPSZ2aWV3X2NhdGU9JnZpZXdfY2F0ZTI9",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81bb-b185-edc5ef2f703d",
+    "title": "lab | up > /conf/6",
+    "url": "https://event-us.kr/lablup/event/133741",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81da-aaaa-c2846e6aa6a9",
+    "title": "2026 재미있는 우리말 가게 이름찾기",
+    "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110060",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8122-b5df-d9dfc87f6e35",
+    "title": "대한민국 가스안전 AI 게임·영상 공모전",
+    "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=108804",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81b7-9cd1-d24c0aa42d14",
+    "title": "2026년 지속가능발전 숏폼 영상 공모전",
+    "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=108241",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8102-aad3-ea0c57035b48",
+    "title": "[무료교육/점심제공] 「2026 넥스트 블록체인 교육」 3회차 교육생 모집 (~9/11)",
+    "url": "https://okky.kr/articles/1563184",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-812a-a5e7-e340eb7654dc",
+    "title": "[프라이버시 블록체인 해커톤] Midnight Korea Hackathon 2026",
+    "url": "https://okky.kr/articles/1563197",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81db-9452-ec95a5420302",
+    "title": "[미국] LA 코스메틱&스킨케어 유통회사 E-commerce 모집 (점심제공/유급공휴일&유급휴가&유급병가)",
+    "url": "https://linkareer.com/activity/347155",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-815c-9c0d-d024aaf10a91",
+    "title": "처음부터 제대로 배우는 AI 기초 (feat. 직무별 현업 데이터 분석 실습)",
+    "url": "https://linkareer.com/activity/347156",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81c5-899c-ffae9f164d6f",
+    "title": "[제로투세븐] 궁중비책 해외영업(중국 역직구) 경력직 모집",
+    "url": "https://linkareer.com/activity/347159",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81f8-92d3-ffc8ea4eba7f",
+    "title": "[HD현대] 26년 하반기 연구직 채용",
+    "url": "https://linkareer.com/activity/347160",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-812d-9419-d62b48705963",
+    "title": "[NAVER Cloud] Global HR 운영 지원 (계약)",
+    "url": "https://linkareer.com/activity/347164",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81bc-a5d1-fb485e677fcd",
+    "title": "비전공자도 쉽게 배우는",
+    "url": "https://linkareer.com/activity/347166",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-813e-88fd-e72f2078e600",
+    "title": "서포터즈 모집 / 안녕하세요, 오래 쓰는 아이 가구 시즈시즈입니다!",
+    "url": "https://linkareer.com/activity/347170",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81f8-9d64-deee2d3fb341",
+    "title": "[미국] LA 여성의류 기업 Visual Contents Creator 모집(점심 식사, 유급 휴가, 병가, 건강 보험, 퇴직 연금 제공)",
+    "url": "https://linkareer.com/activity/347172",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8153-827d-d676c382cc25",
+    "title": "포토토 크리에이터 크루 1기 모집",
+    "url": "https://linkareer.com/activity/347173",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-813a-9c7b-ee7fbffad152",
+    "title": "[인천국제공항공사] 2026년 신입직원 채용",
+    "url": "https://linkareer.com/activity/347178",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8149-af7b-d2ac96dc2c37",
+    "title": "[에이피알] 2026 하반기 신입 대규모 채용",
+    "url": "https://linkareer.com/activity/346844",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8140-87f8-d2f4a5f34f5d",
+    "title": "[CJ올리브네트웍스] AI 서비스 기획자 양성 과정 참여자 모집",
+    "url": "https://linkareer.com/activity/346913",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-815f-b95d-c307d35ae784",
+    "title": "[개강임박] KG 피지컬 AI 제조 AX 캠퍼스 3기 모집안내(9/9(수)개강)",
+    "url": "https://linkareer.com/activity/339543",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81f6-b3b9-fc02abdf554b",
+    "title": "컨디션 대학생 서포터즈, 컨디션 C.R.E.W 2기 모집",
+    "url": "https://linkareer.com/activity/346358",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81d7-94bf-d326d6ee098a",
+    "title": "대학내일_세븐일레븐 K-비빔밥 AI 광고제 캠페인 핫라인 배너 이미지",
+    "url": "https://linkareer.com/activity/347086",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8120-8329-de25b11e3a63",
+    "title": "[인크루트] 한국관광공사 2026 관광 일자리페스타 캠페인 핫라인 배너 이미지",
+    "url": "https://linkareer.com/activity/344457",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-819d-99cc-faab5f6f4755",
+    "title": "[메가스터디교육그룹] 서비스기획자 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49884419?sc=729&traceId=f17004e2fa11fdbc27f52d5dc081ed4f&sn=103",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81cb-99af-eed061a4be00",
+    "title": "NHN COMMERCE 서비스 운영기획 담당자 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49876541?sc=729&traceId=f17004e2fa11fdbc27f52d5dc081ed4f&sn=103",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81e3-b1e9-ffb3f728a708",
+    "title": "[경영전략본부] CFO(Chief Financial Officer) 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49859793?sc=729&traceId=f17004e2fa11fdbc27f52d5dc081ed4f&sn=103",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8189-8778-da607c0290b2",
+    "title": "[글로벌 앱 플랫폼] PO (3년 이상)",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49887279?sc=729&traceId=f17004e2fa11fdbc27f52d5dc081ed4f&sn=103",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8157-920b-fccfdfaee892",
+    "title": "[판타지오] 각 분야 신입 및 경력 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49740384?sc=729&traceId=f17004e2fa11fdbc27f52d5dc081ed4f&sn=103",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8163-97b3-fed2cd8afb5b",
+    "title": "[넥스터 주식회사]스마트 돌봄 서비스 사업기획 및 운영",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49742182?sc=729&traceId=f17004e2fa11fdbc27f52d5dc081ed4f&sn=103",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81cc-885a-d582a30c267e",
+    "title": "[고워드] Product Owner",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49745031?sc=729&traceId=f17004e2fa11fdbc27f52d5dc081ed4f&sn=103",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8108-8afb-d96b211ebf32",
+    "title": "2026 하반기 에이피알 신입 대규모 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49886710?sc=729&traceId=f17004e2fa11fdbc27f52d5dc081ed4f&sn=103",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8196-854e-f42be880bd85",
+    "title": "2026년 제6회 K-인공지능 제조데이터 분석 경진대회",
+    "url": "https://www.all-con.co.kr/hit/contest/4458",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81a6-af57-c49460c5441a",
+    "title": "2026 WATER MARK(워터마크) 아이디어·콘텐츠 공모전",
+    "url": "https://www.all-con.co.kr/hit/contest/4478",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8175-afd3-f2d1c285be19",
+    "title": "한국산업기술시험원 - (산업부 공공기관)GMP/QM,QC/의료기기 취업 교육",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54661217",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8197-942e-d867d64a3249",
+    "title": "세운그룹 - 2026년 하반기 신입사원 공개채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54899558",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81fe-b418-eddd433c6365",
+    "title": "메리츠화재해상보험㈜ - 2026년 IT 팀경력직 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54899026",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8151-95bd-d70122ded03e",
+    "title": "(주)뷰웍스 - 2027 대졸 신입사원 공개채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54865272",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81c8-af83-c0892affa7c5",
+    "title": "에이에이아키그룹건축사사무소㈜ - 경력사원 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54898014",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81c3-b783-e1b2162a18da",
+    "title": "NHN - [NHN]그룹각 부문 수시 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54907242",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-819f-85f4-f035f41a5757",
+    "title": "쿠팡풀필먼트서비스 - 2026 하반기 현장관리자정규직 대규모 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54894443",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81c7-8949-f88ecbc04c34",
+    "title": "㈜한독 - 신입 및 경력 직무별 수시채용(마감일 직무별 상이)",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54908838",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81a5-8ced-c11387540135",
+    "title": "한국산업기술시험원 - 2026년 정규직채용 공고",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54799376",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8100-aeda-dd7f2d716d9f",
+    "title": "쿠팡로지스틱스서비스 - 물류현장 사무&운영 지원[초보주부환영/학력경력무관]",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54896162",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-811a-a760-dfa5a8b14453",
+    "title": "㈜시몬스 - 하반기 각 부문별신입/경력 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54901919",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81bd-8fec-ed3cde062815",
+    "title": "제일약품㈜ - [제일약품 그룹]부문별 인재모집",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54853964",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8151-9813-e093d9cf5736",
+    "title": "쿠팡로지스틱스서비스 - 쿠팡CLS 현장관리 및 사무 행정(경력무관) 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54896086",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8107-b4e7-fea5be37bf84",
+    "title": "IBK신용정보(주) - 2026년 제4차NPL 채권관리 전문 인력 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54781071",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81f1-9b3b-d237a7414643",
+    "title": "에이에스엠엘코리아㈜ - 2026년 하반기 신입 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54856833",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81f2-838f-ddafb62fa2cb",
+    "title": "남양넥스모(주) - 2026년 하반기 일반직 수시 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54910265",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-818d-a5a7-f84c6f13e7f6",
+    "title": "현대로템(주) - 항공우주 분야신입/경력 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54824208",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8110-b259-e270a870f396",
+    "title": "람정엔터테인먼트코리아㈜ - 제주신화월드 Les A 카지노 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54896332",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8176-8d2b-c3a2a9d39db1",
+    "title": "㈜이엔에프테크놀로지 - [한국알콜그룹]26년 9월 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54901573",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8183-89bd-c08b7519da37",
+    "title": "㈜LG CNS - 2026 신입사원채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54906719",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-818c-83fa-f151ebe07ca4",
+    "title": "㈜에이피알 - 2026 하반기신입 대규모 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54895256",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81ca-97fb-cd6ecf4b8da9",
+    "title": "㈜피알앤디테크베이 - [헤이딜러] 대규모 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54902342",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-815d-8ec3-e54bf338fbc4",
+    "title": "쿠팡로지스틱스서비스 - 쿠팡배송기사님(정규직 전환형)전국 대규모 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54899898",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-819e-bd09-d08aac5cc71e",
+    "title": "현대글로비스㈜ - 2026년 하반기신입사원 채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54906545",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8101-b40d-ef370e847186",
+    "title": "10. [해외취업-국비지원연수] 2026 캐나다 취업 AI.데이터분석 기반 경영사무 실무자 양성과정",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040410001&str_no=202608240035",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-8150-af1e-f25ab3b93fa6",
+    "title": "9. [구로 청년이룸] 아니 무슨 회사에 PC방이 있어요 참여자 모집",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040210001&str_no=202608240006",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81f9-998f-f1f20054d69e",
+    "title": "8. 이마트 앰배서더 4기 모집",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040110001&str_no=202608250049",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8158-bbcb-ca09aefec65a",
+    "title": "10. 청소년전용카페 이리모영 3호점 애칭 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202608250033",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81a2-93a8-d9f21c36ec97",
+    "title": "9. 2026년 장애인식개선 캠페인 「우리, 함께 걷는 풍경」일러스트 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202608240030",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81f7-a0b4-f9ee46079a76",
+    "title": "8. 제주 디지털 통합 신원인증 앱 명칭 공모",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202608260047",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81aa-b21c-c794336fc833",
+    "title": "1. [용인시산업진흥원] 2026년 용인 오픈이노베이션 교류회 4회차(AI)",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040410001&str_no=202608310054",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8152-a780-d047016c5c27",
+    "title": "2. 2026 국가산림문화자산 AI 숏폼 영상 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202609010003",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8166-91bf-d6e26dff5f48",
+    "title": "미술•디자인•웹툰 제3회 교통안전 공감 포스터 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202608130047",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8135-a1dc-c2b2192f0671",
+    "title": "아이디어•건축•창업 제2회 성남 x KAIST AI 경진대회",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202608140021",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81fe-b5b0-d85147ac4a6c",
+    "title": "아이디어•건축•창업 [MARKETON 마케팅 마라톤] 무너진 ROAS를 되돌려라",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202608310025",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8102-8f65-c0bcfdd2bd0c",
+    "title": "사진•영상•영화제 제3회 ICN 26영화제 X 29초영화제",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202608310049",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8188-b2f5-d5f379eb56ae",
+    "title": "학문•과학•IT 2026 전국대학생 통일토론경연대회",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608310055",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81ef-a75e-d25cccc64cb8",
+    "title": "미술•디자인•웹툰 제2회 해석미술장학생 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202609010019",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81a1-9ee3-e162fb3181e9",
+    "title": "문학•문예 제46회 《문명 그 화려한 역설》 69개의 표지비밀 풀기 프로젝트 공모 (1억고료 문학상 수상작)",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609010032",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8136-839f-e40ff01935c1",
+    "title": "미술•디자인•웹툰 2026 풀무원 뮤지엄김치간 제4회 어린이 김치 콘텐츠 공모전 <내가 발견한 오늘의 김치유산>",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202608270029",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-810f-9670-e268d0c11053",
+    "title": "사진•영상•영화제 제7회 승가원 장애바로알기 콘텐츠 공모전(접수기간: 8/31~11/6)",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202608310050",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8163-918a-e488ebb2d887",
+    "title": "문학•문예 미술•디자인•웹툰 제50회 전국 초중학생 발명글짓기만화 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609010033",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8127-af7a-e2f5e181726e",
+    "title": "미술•디자인•웹툰 2026년 부산광역시 인권공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202609010049",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8159-ae80-f6326c800735",
+    "title": "네이밍•슬로건 합병 법무법인 명칭 공모",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202609010064",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-817d-8863-d29aaf1119be",
+    "title": "제2회 ZYXCAD AX 경진대회 접수기간 26.08.31~26.10.18 직스테크놀로지",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608310001",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-812e-9fd7-c32dd8755d7e",
+    "title": "AI 인성검사 V2 GRAND OPEN",
+    "url": "https://help.incruit.com/event/eventview.asp?newsno=438360",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81cf-871f-dad4a15bcdb4",
+    "title": "2026년 하반기 서대구산단 혁신지원센터 신규 입주기업 모집 공고",
+    "url": "https://dgtp.or.kr/bbs/BoardControllView.do?bbsId=BBSMSTR_000000000003&nttId=15724",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8150-9692-d359b01985da",
+    "title": "[CJ프레시웨이] 2026 CJ프레시웨이 본사 초청 설명회 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1862",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8109-9f60-e1d9aabef90b",
+    "title": "[롯데그룹] 3·6·9·12 롯데그룹 예측가능한 채용 '9월 채용 오픈' (9/1~)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1863",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-8134-92cc-e57d1965d363",
+    "title": "[뷰웍스] 2027 뷰웍스 대졸 신입 공채 안내(~9/21)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1864",
+    "label": false
+  },
+  {
+    "id": "3ce39baa-9dec-81c5-8e4f-dea40811758d",
+    "title": "2026년도 2학기 종합설계/빅데이터융합프로젝트 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29404",
+    "label": true
+  },
+  {
+    "id": "3ce39baa-9dec-81d1-9bea-ced363611a6c",
+    "title": "2026 앵커 대학 (예비)창업기업 사업회지원 참여기업 모집 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29406",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8160-b101-e10b18bd035a",
+    "title": "[로보티즈] RX 셀 플랫폼·설비 인터페이스 엔지니어",
+    "url": "https://linkareer.com/activity/346768",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81dd-831c-ff5bd4560769",
+    "title": "[한국천주교주교회의 사회홍보위원회] 제36회 가톨릭 미디어 콘텐츠 대상 공모",
+    "url": "https://linkareer.com/activity/346770",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8155-90c4-fcc27f68eca4",
+    "title": "[한화모멘텀] 시설관리(공무) 계약직 신입/경력 채용",
+    "url": "https://linkareer.com/activity/346772",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8163-8369-d83d2b33ba30",
+    "title": "[HD현대마린엔진] 총무 업무(현장 지원) 기간제 사원 채용",
+    "url": "https://linkareer.com/activity/346774",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8148-85c5-e6e9f03445e2",
+    "title": "[포토플레이 4기] 포토샵·디자인 연합 스터디 신규 스터디원 모집합니다",
+    "url": "https://linkareer.com/activity/346775",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-817e-8530-f613009e6c30",
+    "title": "[한컴문학상 추진위원회] 2026 제2회 한컴문학상",
+    "url": "https://linkareer.com/activity/346776",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8105-bd81-e33bf42aa201",
+    "title": "[로보티즈] 자금관리 담당자 경력직 모집",
+    "url": "https://linkareer.com/activity/346777",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-814e-992d-cc400d2216a8",
+    "title": "[롯데인재개발원] 롯데 청년 직무 아카데미 LIFT",
+    "url": "https://linkareer.com/activity/346780",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-81a7-8b7f-c02e402b354d",
+    "title": "2026 시흥시 기본사회 정책 아이디어 공모전",
+    "url": "https://linkareer.com/activity/346791",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8164-b90f-de5df2e31e2a",
+    "title": "2026년 계룡시 정신건강 인식개선 그림 공모전",
+    "url": "https://linkareer.com/activity/346797",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81cd-8ce8-f03ac4c10157",
+    "title": "[면사랑] 제2회 영양사 요리대회 공모전",
+    "url": "https://linkareer.com/activity/346769",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81c7-a96f-c1414e501b8b",
+    "title": "[리노컴즈] 2026 웹/앱 기획자 (구축 및 운영)",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49807052?sc=729&traceId=286817ae6e921d8908f74823b4c7c252&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81a5-a56d-cb208edc5098",
+    "title": "공공기관/대학/의료 SI 프로젝트 PM 채용공고",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49873966?sc=729&traceId=286817ae6e921d8908f74823b4c7c252&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8131-9a9a-cd08e2fae2d2",
+    "title": "2026년 하반기 전략기획부 신입/경력 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49876656?sc=729&traceId=286817ae6e921d8908f74823b4c7c252&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81a9-ad71-e7accddc8ad4",
+    "title": "PM/PL 및 사업 기획 제안 경력직 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49779972?sc=729&traceId=286817ae6e921d8908f74823b4c7c252&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-819e-a14c-c7a87c2ac512",
+    "title": "제18회 교원·학교 부문 다문화교육 우수사례 공모전",
+    "url": "https://www.all-con.co.kr/hit/contest/4476",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8111-b003-c5cd58ab6c76",
+    "title": "제6회 그린리모델링 챌린지 대학생 해커톤",
+    "url": "https://www.all-con.co.kr/hit/contest/4475",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-81c6-b810-f698b3dcee7b",
+    "title": "블라인드 캠퍼스 서포터즈 1기 모집",
+    "url": "https://www.all-con.co.kr/hit/contest/4477",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81d5-8f0d-ca4abb6d891d",
+    "title": "㈜세종분석연구원 - Senior AI Engineer/머신러닝 엔지니어",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54588288",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81eb-b9d5-f725911a5e7f",
+    "title": "키움증권 - 2026년 하반기대졸 신입사원 공개채용",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54879258",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-816a-a260-c1f48147cabf",
+    "title": "금호폴리켐 - 2026년 일반직 경력사원 모집공고",
+    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54899486",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81ad-9b8c-e6a866e6c6b4",
+    "title": "7. [한국보건복지인재원] KOHI 청년 서포터즈 : 이런(e-Learn) 인재 모집",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040110001&str_no=202608210038",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-818f-9303-db3339640598",
+    "title": "2. 평생자격증)제 39차 갈등관리상담사 협상전문가 1, 2급 자격증 교육생 모집",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040410001&str_no=202608310002",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8125-8644-e42285ceaf9d",
+    "title": "1. 2026년 기후행동 실천모임 모집",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=2&Txt_bcode=040210001&str_no=202608310023",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81fb-9dca-c1fd7551dbf7",
+    "title": "네이밍•슬로건 여성경제활동 지원센터 새이름 공모전",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202608310026",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81ed-83c3-f7755ac1e68d",
+    "title": "[창업지원단] 모두의 창업 프로젝트(2차) 현장 접수 행사 안내",
+    "url": "https://www.knu.ac.kr/wbbs/wbbs/bbs/btin/viewBtin.action?bbs_cde=&btin.bbs_cde=&btin.doc_no=1338252&btin.appl_no=000000&btin.page=/%3E&btin.search_type=&btin.search_text=&popupDeco=&btin.note_div=row&menu_idx=73",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-819a-ae8f-c6c242fea9d3",
+    "title": "[WISET] 2026년 취업전략 세미나(이공계 직무 면접) 참여자 모집 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_4&wr_id=714",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-81cb-8fed-f0744b2696fa",
+    "title": "[사범대학 미래교육센터] 「2026 교육 분야 명사 특강」 9월 특강 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_4&wr_id=715",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8197-8556-ec91b9f1935f",
+    "title": "[현대카드|현대커머셜] 2026년 하반기 신입 인재 모집 홍보 협조요청(~9/14)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1858",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-81e5-8bac-fcb31d9ec9e5",
+    "title": "[BGF리테일] 2026년 하반기 신입채용 모집 안내",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1859",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-815c-988b-c141e939a357",
+    "title": "[KT] 현직 선배와 함께하는 채용 상담회(9/3(목) 10시~17시)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1860",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-81ea-90b7-c9ce176d9ef3",
+    "title": "[Apple 디벨로퍼 아카데미] 경북대를 위한 6기 패스트 트랙 가을 시즌 특별 모집중 (~9/11)",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1861",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-8132-be5f-e51bb3e9a20e",
+    "title": "2026년 한국지능정보사회진흥원 하반기 정규직 및 무기계약직(일반직) 채용공고",
+    "url": "https://cse.knu.ac.kr/bbs/board.php?bo_table=sub6_3_b&wr_id=1857",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81d5-b1c2-c6d27d71fee5",
+    "title": "2026 서울-로슈진단 스타트업 스프린트 데모데이 & 의료기기 혁신 기술 심포지엄",
+    "url": "https://event-us.kr/seoulbiohub/event/133079",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-8179-a361-ce8c00ae8029",
+    "title": "AX 트렌드와 비즈니스 적용 사례AI, Now on AZ32026. 09. 18(금) 13:00오프라인 행사신청하기 >",
+    "url": "https://event-us.kr/seminar0918/event/133302",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-817f-a226-ce983f407909",
+    "title": "2026 평화 통일미래 콘텐츠 공모전",
+    "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106711",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-818f-bf76-edf6771248d8",
+    "title": "2026년 경상북도 인권작품 공모전",
+    "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110228",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81f3-813f-f84ead046228",
+    "title": "2026 제2회 실라리안 숏폼 어워드",
+    "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106315",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8140-8e87-eb82975559e5",
+    "title": "[오늘, 8/30 신청마감] AUSGCON 2026으로 여러분을 초대합니다",
+    "url": "https://okky.kr/articles/1563103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8174-b564-c3d4fa5c25dc",
+    "title": "2026년 경상북도 인권작품 공모전",
+    "url": "https://linkareer.com/activity/346660",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8190-a6b7-e2480471e4a0",
+    "title": "[하이퍼엑셀] Device Driver Engineer(신입/경력)",
+    "url": "https://linkareer.com/activity/346664",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-8132-b581-f2dd33b0a455",
+    "title": "[중앙대학교병원] (서울병원) 시설팀(기관실) 기능사(계약직) 모집(2026.08-2)",
+    "url": "https://linkareer.com/activity/346665",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81df-8128-d2f9ac8065fa",
+    "title": "[하이퍼엑셀] Compiler Engineer(신입/경력)",
+    "url": "https://linkareer.com/activity/346668",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-8138-89f7-e4098ed04bd9",
+    "title": "[BGF리테일] 2026년 하반기 신입사원 공개채용",
+    "url": "https://linkareer.com/activity/346672",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-810f-a071-deca33c5f91d",
+    "title": "[아산시] 2026 이순신관광체험센터 미디어월 미디어아트 공모전",
+    "url": "https://linkareer.com/activity/346675",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-813d-aff7-e82637088f37",
+    "title": "[대홍기획 사내벤처 L.EVEL UP] IP 콜라보, 프로덕트 기획 (체험형 인턴)",
+    "url": "https://linkareer.com/activity/346677",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-81a7-bbc6-d24a24fa62f4",
+    "title": "건전경마 활성화 및 불법도박 예방 영상 공모전",
+    "url": "https://linkareer.com/activity/346678",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81db-a17c-fd9775236832",
+    "title": "[중앙대학교병원] (광명병원) 간호본부 소화기내과 전담간호사 (휴직대체) 모집 (2026.08-1)",
+    "url": "https://linkareer.com/activity/346679",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81ad-9fd1-d86255175875",
+    "title": "[LIG D&A] 2026 인재영입",
+    "url": "https://linkareer.com/activity/346680",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8114-96b5-dc8cd8c6db3f",
+    "title": "[외교부 장관상] 2026 제18회 전국 대학생 국제학 포럼 참가자 모집",
+    "url": "https://linkareer.com/activity/345985",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-81cc-8e5e-e2c792b667d4",
+    "title": "[KT] 2026년 KT 대졸신입 채용",
+    "url": "https://linkareer.com/activity/345239",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-813e-9e25-d81e1f145764",
+    "title": "[LG전자] 2026년 하반기 LG전자 신입사원 채용",
+    "url": "https://linkareer.com/activity/344996",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81ce-9c00-e53839a7895a",
+    "title": "[현대자동차] 9월 신입 채용 (사전공고)",
+    "url": "https://linkareer.com/activity/344807",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-81ff-9c61-da25945c42a2",
+    "title": "[KOTRA 대한무역투자진흥공사] AI 무역인재 양성과정 26년 2기 서포터즈(TA) 모집 (구 덱스터즈 수료생 지원 가능)",
+    "url": "https://linkareer.com/activity/343758",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-819f-bf87-d68534eeb8f2",
+    "title": "[법무법인 해율] 해율 청년봉사단 4기 봉사단원 모집(~9/9)",
+    "url": "https://linkareer.com/activity/344455",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8159-be4e-c77719a5a4b4",
+    "title": "서비스 기획자/프로젝트 PM 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49867879?sc=729&traceId=a84bebba1edc4fde8a5f4eef12392912&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81a4-b37c-f5e8385f1e86",
+    "title": "(주)인바디 2026 하반기 GBD 신입 채용 - 통합 직무",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49864674?sc=729&traceId=a84bebba1edc4fde8a5f4eef12392912&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81d4-b0ec-d18b569d9417",
+    "title": "서비스 시스템 Figma 화면기획",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49773237?sc=729&traceId=a84bebba1edc4fde8a5f4eef12392912&sn=103",
+    "label": true
+  },
+  {
+    "id": "3cd39baa-9dec-814c-befe-ff5085683379",
+    "title": "IT 서비스 기획자 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49801558?sc=729&traceId=a84bebba1edc4fde8a5f4eef12392912&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-815b-befd-d86d149d08fc",
+    "title": "프랜차이즈 가맹사업 본부장 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49794314?sc=729&traceId=a84bebba1edc4fde8a5f4eef12392912&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81da-903a-e07523cc556e",
+    "title": "(주)유디아이디 결제 시장을 설계할 서비스 기획 팀장급 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49865105?sc=729&traceId=a84bebba1edc4fde8a5f4eef12392912&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81a7-8a9c-d50804e18b5f",
+    "title": "2026년 하반기 KT&G 신입사원 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49748939?sc=729&traceId=a84bebba1edc4fde8a5f4eef12392912&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-814c-b7e9-cbd8938c64da",
+    "title": "(주)겐츠베이커리 COO (운영총괄책임자) 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49875815?sc=729&traceId=a84bebba1edc4fde8a5f4eef12392912&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8153-8565-dc443d99d240",
+    "title": "[마케팅] 교재 판매 전략, 기획 및 광고 관리/SNS 관리",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49870953?sc=729&traceId=a84bebba1edc4fde8a5f4eef12392912&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-81f2-a440-f97df844eead",
+    "title": "[구로] 개발팀 물류 플랫폼 서비스 기획자 (PM/PO)",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49844477?sc=729&traceId=a84bebba1edc4fde8a5f4eef12392912&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-812d-bf64-dc565ec0713c",
+    "title": "브랜드 전략·마케팅 매니저 /F&B 브랜드 리브랜딩",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49875288?sc=729&traceId=a84bebba1edc4fde8a5f4eef12392912&sn=103",
+    "label": false
+  },
+  {
+    "id": "3cd39baa-9dec-8139-bc85-ffbdcb237cd2",
+    "title": "AI 서비스 PM 채용",
+    "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49852910?sc=729&traceId=a84bebba1edc4fde8a5f4eef12392912&sn=103",
+    "label": false
+  }
+]

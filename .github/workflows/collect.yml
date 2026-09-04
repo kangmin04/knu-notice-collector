@@ -39,10 +39,17 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit == 'true'
         run: npx playwright install-deps chromium
 
+      - name: Cache embedding model (relevance filter)
+        uses: actions/cache@v4
+        with:
+          path: .cache/transformers
+          key: transformers-model-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
       - name: Run collector
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_FEED_DATABASE_ID: "22aeaa3935f7424a9c84513ecb611ed9"
+          RELEVANCE_THRESHOLD: "0.0504"
         run: node src/collect.js
 
       - name: Commit updated seen-state
