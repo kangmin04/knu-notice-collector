@@ -75,26 +75,26 @@ async function main() {
         continue;
       }
 
-      // 8. 새 글마다 관련성 필터를 먼저 거치고(DRY_RUN 여부와 무관하게 적용해야 미리보기와
-      //    실제 동작이 일치한다), 관련 있으면 DRY_RUN이면 로그만, 아니면 실제로 노션 페이지를
-      //    생성한다. 어느 경우든 이 글의 id는 seenIds에 넣어 다음 실행에서 재검토되지 않게 한다.
+      // 8. 새 글은 관련 여부와 무관하게 전부 노션에 올리되(사용자가 직접 걸러낼 수 있도록),
+      //    관련성 필터 결과는 "IT 관련" 체크박스로 표시만 해둔다. 이 글의 id는 어느 경우든
+      //    seenIds에 넣어 다음 실행에서 재검토되지 않게 한다.
       let addedCount = 0;
+      let relevantCount = 0;
       for (const item of newItems) {
         const { relevant, score } = await isRelevant(item.title);
-        if (!relevant) {
-          console.log(`[SKIP][${site.name}] 무관 판정(score ${score.toFixed(3)}): ${item.title}`);
-          seenIds.add(item.id);
-          continue;
-        }
+        if (relevant) relevantCount++;
 
         if (DRY_RUN) {
-          console.log(`[DRY_RUN][${site.name}] 새 글 추가 예정: ${item.title}`);
+          console.log(
+            `[DRY_RUN][${site.name}] 새 글 추가 예정(IT 관련: ${relevant}, score ${score?.toFixed(3) ?? "N/A"}): ${item.title}`,
+          );
         } else {
           await addFeedItem({
             site,
             item,
             notionToken: NOTION_TOKEN,
             databaseId: FEED_DATABASE_ID,
+            relevant,
           });
         }
         seenIds.add(item.id);
@@ -104,9 +104,9 @@ async function main() {
 
       if (addedCount > 0) {
         totalNew += addedCount;
-        console.log(`[${site.name}] 새 글 ${addedCount}건 노션에 추가`);
-      } else if (newItems.length > 0) {
-        console.log(`[${site.name}] 새 글 ${newItems.length}건 발견, 전부 무관 판정으로 제외`);
+        console.log(
+          `[${site.name}] 새 글 ${addedCount}건 노션에 추가 (IT 관련 ${relevantCount}건 / 무관 ${addedCount - relevantCount}건)`,
+        );
       } else {
         console.log(`[${site.name}] 새 글 없음`);
       }

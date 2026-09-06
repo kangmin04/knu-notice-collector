@@ -112,3 +112,63 @@ return await page.content();
 개수가 N번 연속 안정될 때까지 폴링"), `page.waitForLoadState("networkidle")`, 또는 API 응답
 자체를 가로채는(`page.on("response")`) 방식처럼, 고정 sleep보다 결정적인 대기 조건을
 구성하는 법.
+
+## 2026-09-05 — knu-notice-collector `src/relevance/embed.js` lazy singleton 구현 중 정리
+
+### boolean 플래그로 "이미 호출했는지" 체크하면, *언제* 세팅하느냐에 따라 다르게 깨짐
+동시에 두 번 호출되는 상황(`Promise.all([embed(a), embed(b)])`)을 안전하게 처리하려면
+"중복 실행 방지"와 "다른 호출자가 결과를 기다리기" 두 요구사항이 **동시에** 지켜져야 하는데,
+플래그를 언제 true로 바꾸느냐에 따라 둘 중 하나씩 깨지는 걸 직접 겪으며 확인함.
+
+```js
+// src/relevance/embed.js:19-27 (사용자가 직접 시행착오를 남긴 주석 원문)
+// 아래 로직의 문제: promise.all()로 두개가 동시에 오면, A는 false여서 모델 생성할거고,
+// await떄문에 실행권이 B로 넘어갈텐데, 이떄 B도 아직은 false라 모델이 두번 호출됨.
+// let alreadyCalled = false;
+// if(!alreadyCalled){
+//     alreadyCalled = true;
+//     extractor = await pipeline("feature-extraction", "Xenova/paraphrase-multilingual-MiniLM-L12-v2");
+// }
+
+// Nodejs design pattern에서 배운 lazy promise !!!!!!
+let extractorPromise;
+
+export async function embed(text) {
+  if (!extractorPromise) {
+    extractorPromise = pipeline(/* ... */); // await 없이 즉시(동기적으로) 대입
+  }
+  const extractor = await extractorPromise; // 모든 호출자가 '같은' Promise를 기다림
+  // ...
+}
+```
+
+두 가지 실패 패턴을 실제로 구분해봄:
+- **결과값(`extractor = await pipeline(...)`)을 캐시**하면: 대입이 `await` **뒤**에 일어나서,
+  A가 await 중일 때 B가 체크해도 여전히 비어있는 상태 → B도 또 `pipeline()`을 호출(중복 실행).
+- **boolean 플래그를 `await` 전에 동기적으로 set**하면: 중복 호출은 막히지만, B는 "이미
+  처리 중이구나" 하고 그냥 지나쳐버려서 아직 준비 안 된 값을 그대로 쓰려 함(TOCTOU 버그 —
+  check와 use 사이에 다른 코드가 끼어들 수 있는 게 핵심 원인).
+- **Promise 자체를 `await` 전에 캐시**하면: 대입이 동기적이라 중복 호출도 안 막히는 문제가
+  없고, 모든 호출자가 `await`로 "진짜 완료"까지 기다리므로 두 문제 다 해결됨. Promise가
+  "이미 시작했다는 신호"와 "결과가 준비될 때까지 기다릴 대상"을 동시에 겸하는 게 핵심.
+
+### `for...of`는 루프 변수를 감소시켜도 되감을 수 없음
+(라벨링 CLI에 "이전 응답으로 되돌아가기" 기능을 설계하다 나온 논의 — 프로젝트에 실제로
+구현되진 않았고, 아래는 개념 설명용 최소 예시.)
+
+```js
+// 프로젝트 코드 아님 — for...of의 일반적인 동작을 보여주는 최소 예시
+const items = ["a", "b", "c"];
+for (const [i, item] of items.entries()) {
+  if (조건) {
+    i--; // 아무 효과 없음 — i는 이번 반복 스코프의 새 지역 변수일 뿐
+    continue;
+  }
+}
+```
+
+`for...of`는 매 반복마다 이터레이터에서 **다음 값을 새로 뽑아** 루프 변수에 새 바인딩을
+만든다. 그 지역 변수를 반복문 안에서 감소시켜도 이터레이터 자체의 내부 위치는 전혀 영향을
+안 받아서, 다음 반복은 그냥 원래 순서대로 진행됨. "이전 항목으로 되돌아가기"처럼 되감기가
+필요하면 `for...of`가 아니라 **직접 관리하는 인덱스로 도는 `while`/`for` 루프**를 써야 함
+(`let i = 0; while (i < arr.length) { ...; i--; continue; }` 형태).

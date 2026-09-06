@@ -8,12 +8,12 @@ flowchart LR
     fetchers["src/fetchers.js + src/browser.js\n(콘텐츠 가져오기: static fetch / Playwright)"]
     parsers["src/parsers/*\n(text, baseUrl) => items[]"]
     diff["src/collect.js\n(data/seen.json과 diff)"]
-    relevance["src/relevance/index.js\n(임베딩 유사도 기반 관련성 필터)"]
+    relevance["src/relevance/index.js\n(임베딩 유사도 기반 관련성 판정)"]
     notion["src/notion.js\n(Notion REST API)"]
 
     sites --> fetchers --> parsers --> diff --> relevance --> notion
     diff -. "site.id in store?" .-> store["data/seen.json"]
-    relevance -. "무관 판정" .-> skip["SKIP 로그만, 노션 기록 없음"]
+    relevance -. "relevant 값을\n'IT 관련' 체크박스로 표시" .-> notion
 ```
 
 ## 컴포넌트 책임
@@ -23,8 +23,8 @@ flowchart LR
 - **`src/browser.js`** — `mode: "dynamic"` 사이트를 처리. Playwright Chromium 인스턴스를 지연 초기화 싱글톤으로 재사용(`getBrowser()`), 사이트마다 새 `BrowserContext`를 열고 `finally`에서 `close()`. `waitForSelector`가 지정되면 그 셀렉터를, 없으면 고정 그레이스 타임을 기다린 뒤 `page.content()`로 완성된 HTML을 반환.
 - **핵심 설계 결정**: 정적/동적 어느 경로든 **최종적으로 완성된 HTML 문자열을 반환**하므로, `src/parsers/*`의 파서 함수는 `mode`를 몰라도 된다. 파서는 항상 동일한 시그니처 `(text: string, baseUrl: string) => { id, title, url }[]`를 가지며, cheerio 기반 DOM 셀렉터(또는 ccei처럼 `JSON.parse`)로 목록을 추출한다. "동적 전용 파서"라는 별도 카테고리는 없다.
 - **`src/collect.js`** — 사이트 배열을 순차 순회하며 `fetchSiteContent(site)` → `parsers[site.parser](text, site.url)` → `data/seen.json`과 diff → 새 항목만 `addFeedItem`으로 노션에 씀. 사이트별 실패는 try/catch로 격리해 한 사이트 오류가 전체를 막지 않는다. 최초실행 판단은 **사이트 단위**(`site.id in store`)로 하여, 신규 사이트 추가 시 그 사이트의 현재 게시글 전체가 스팸으로 올라가는 것을 막는다.
-- **`src/relevance/`** — 새 글 제목이 CS/개발 관련인지 판단하는 필터. `embed.js`가 `@xenova/transformers`로 문장을 384차원 벡터로 변환(모듈 singleton으로 lazy-load, 캐시 경로는 `.cache/transformers`로 고정 — `docs/adr/0008`)하고, `prototypes.js`의 양성/음성 기준 문장들과 `similarity.js`의 코사인 유사도로 `margin = maxPosSim - maxNegSim`을 계산(`index.js`의 `scoreTitle`)한 뒤 `RELEVANCE_THRESHOLD`(`.env`)와 비교해 관련 여부를 정한다(`isRelevant`). 판단 중 예외가 나거나 `RELEVANCE_FILTER_DISABLED=1`이면 fail-open으로 관련 글 취급한다. `src/collect.js`의 `newItems` 루프 안, 노션 기록 직전에서 호출된다.
-- **`src/notion.js`** — Notion REST API(`/v1/pages`)로 새 글 피드 DB에 페이지 생성.
+- **`src/relevance/`** — 새 글 제목이 CS/개발 관련인지 판단한다(더 이상 필터로 걸러내지 않고 표시만 한다 — `docs/adr/0009`). `embed.js`가 `@xenova/transformers`로 문장을 384차원 벡터로 변환(모듈 singleton으로 lazy-load, 캐시 경로는 `.cache/transformers`로 고정 — `docs/adr/0008`)하고, `prototypes.js`의 양성/음성 기준 문장들과 `similarity.js`의 코사인 유사도로 `margin = maxPosSim - maxNegSim`을 계산(`index.js`의 `scoreTitle`)한 뒤 `RELEVANCE_THRESHOLD`(`.env`)와 비교해 관련 여부를 정한다(`isRelevant`). 판단 중 예외가 나거나 `RELEVANCE_FILTER_DISABLED=1`이면 fail-open으로 관련 글 취급한다. `src/collect.js`의 `newItems` 루프 안, 노션 기록 직전에서 호출되며, 그 결과(`relevant`)는 노션 페이지의 "IT 관련" 체크박스 값으로 전달될 뿐 노션 기록 여부 자체에는 영향을 주지 않는다.
+- **`src/notion.js`** — Notion REST API(`/v1/pages`)로 새 글 피드 DB에 페이지 생성. `relevant` 값을 "IT 관련" 체크박스 속성에 그대로 반영한다.
 - **`data/seen.json`** — 사이트별로 이미 노션에 올린 글 id 배열을 저장하는 상태 파일. GitHub Actions가 실행 후 이 파일의 변경분을 커밋해 다음 실행이 이어받는다.
 
 ## 새 사이트 추가 절차

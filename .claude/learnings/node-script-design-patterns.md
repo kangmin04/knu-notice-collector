@@ -104,3 +104,29 @@ $("a[href*='mode=view']").each((_, el) => {
 이 프로젝트 규모(사이트당 글 수백~수천 건)에서 실질적으로 무시 가능한 수준인지 감(생일
 문제/birthday paradox)을 잡아두면, 비슷한 "안정 id 없는 데이터에 식별자 붙이기" 문제를
 만났을 때 판단 기준이 됨.
+
+## 2026-09-05 — 임베딩 관련성 필터를 collect.js에 어디에 넣을지 판단하며 정리
+
+### 비용이 큰 필터는 "이미 걸러진 뒤"의 좁은 집합에만 적용
+사이트에서 파싱해온 `items`(오늘 페이지에 걸린 글 전체)와, 그중 아직 처리 안 한
+`newItems`(`seenIds`로 dedup된 진짜 새 글)는 크기가 완전히 다르다. 임베딩 계산처럼 비용이
+드는 작업(모델 추론)을 어느 쪽에 걸 것인지가 실행 비용을 좌우함.
+
+```js
+// src/collect.js:63-65, 78-83 (구조만 발췌)
+const seenIds = new Set(store[site.id] ?? []);
+const newItems = items.filter((item) => !seenIds.has(item.id)); // 여기서 이미 대상이 좁혀짐
+
+// ... siteIsFirstRun이면 여기서 continue로 아예 안 들어옴 ...
+
+for (const item of newItems) {           // items 전체가 아니라 newItems만 순회
+  const { relevant, score } = await isRelevant(item.title); // 진짜 새 글에만 임베딩 계산
+  // ...
+}
+```
+
+`items`(dedup 전) 단계에서 필터를 걸었다면: ① 어제도 있었던, 오늘은 어차피 스킵될 글까지
+매일 다시 임베딩을 계산하고 ② 사이트 최초 실행(`siteIsFirstRun`)일 때도 baseline 저장 외엔
+안 쓰일 결과를 위해 전체 글을 계산하게 됨. 비용이 있는 필터/변환은 **파이프라인에서 이미
+최대한 좁혀진 지점**(여기서는 dedup 직후, first-run 분기 이후)에 놓아야 낭비가 없다는,
+배치/ETL 스크립트 전반에 적용되는 원칙.
