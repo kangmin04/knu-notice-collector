@@ -6,3 +6,4 @@
 - [transformers.js 문장 임베딩](transformers-js-embeddings.md) — pooling/normalize는 extractor 호출 시점 옵션, Tensor.data는 항상 flat, JS엔 row/column vector 개념 없음, env.cacheDir CI 캐싱
 - [Notion API databases vs dataSources](notion-api-data-sources.md) — 2025 스키마 변경으로 query가 dataSources로 이동, retrieve().id는 database 자신의 id라는 함정, collectPaginatedAPI
 - [JS Map / 해시테이블 내부 구현 원리](js-map-hashtable-internals.md) — 버킷+체이닝으로 O(1) 조회, V8 OrderedHashTable의 순서보장 구조, 로드 팩터/리해싱, 해시 충돌 공격
+- [Node child_process exec 계열과 시스템 콜 exec()](node-child-process-exec.md) — exec/execSync의 /bin/sh -c 경유와 셸 인젝션, execFile의 배열 인자, fork+exec+wait 패턴과의 차이, execFileSync의 libuv/posix_spawn 내부 구현

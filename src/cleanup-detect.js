@@ -1,13 +1,13 @@
 import { execFileSync } from "node:child_process";
 import { loadEnv } from "./env.js";
 import { queryStaleUnrelatedItems } from "./notion.js";
+import { STALE_DAYS } from "./cleanup-config.js";
 
 loadEnv();
 
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const FEED_DATABASE_ID = process.env.NOTION_FEED_DATABASE_ID;
-const DRY_RUN = process.env.DRY_RUN === "1";
-const STALE_DAYS = 5;
+const DRY_RUN = process.env.DRY_RUN === "1" || process.argv.includes("--dry-run");
 const ISSUE_TITLE = "🧹 정리 대상 후보";
 
 if (!NOTION_TOKEN || !FEED_DATABASE_ID) {

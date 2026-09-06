@@ -1,13 +1,14 @@
 import { execFileSync } from "node:child_process";
 import { loadEnv } from "./env.js";
 import { queryStaleUnrelatedItems, archiveItems } from "./notion.js";
+import { STALE_DAYS } from "./cleanup-config.js";
 
 loadEnv();
 
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const FEED_DATABASE_ID = process.env.NOTION_FEED_DATABASE_ID;
 const ISSUE_NUMBER = process.env.ISSUE_NUMBER;
-const STALE_DAYS = 5;
+const DRY_RUN = process.env.DRY_RUN === "1" || process.argv.includes("--dry-run");
 
 if (!NOTION_TOKEN || !FEED_DATABASE_ID) {
   console.error(
@@ -37,6 +38,13 @@ async function main() {
   // ISSUE_NUMBER가 없는 수동 실행(workflow_dispatch, 이슈 지정 없이)은 승인 절차를
   // 건너뛰고 지금 시점의 재조회 결과를 그대로 정리한다.
   if (!ISSUE_NUMBER) {
+    if (DRY_RUN) {
+      console.log(
+        `[DRY_RUN] 수동 실행: ${current.length}건 삭제(휴지통 이동) 예정 (실제 삭제 생략)`,
+      );
+      for (const c of current) console.log(`  - ${c.title} (${c.url})`);
+      return;
+    }
     const archivedCount =
       current.length > 0
         ? await archiveItems({ notionToken: NOTION_TOKEN, pageIds: current.map((c) => c.id) })
@@ -63,6 +71,18 @@ async function main() {
   const currentIds = new Set(current.map((c) => c.id));
   const toArchive = approvedIds.filter((id) => currentIds.has(id));
   const skipped = approvedIds.length - toArchive.length;
+
+  if (DRY_RUN) {
+    console.log(
+      `[DRY_RUN] ${toArchive.length}건 삭제(휴지통 이동) 예정, ${skipped}건 제외 예정 (실제 삭제/이슈 갱신 생략)`,
+    );
+    for (const id of toArchive) {
+      const item = current.find((c) => c.id === id);
+      console.log(`  - ${item?.title ?? id} (${item?.url ?? ""})`);
+    }
+    return;
+  }
+
   const archivedCount =
     toArchive.length > 0
       ? await archiveItems({ notionToken: NOTION_TOKEN, pageIds: toArchive })

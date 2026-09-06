@@ -10,7 +10,7 @@ loadEnv();
 
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const FEED_DATABASE_ID = process.env.NOTION_FEED_DATABASE_ID;
-const DRY_RUN = process.env.DRY_RUN === "1";
+const DRY_RUN = process.env.DRY_RUN === "1" || process.argv.includes("--dry-run");
 
 if (!NOTION_TOKEN || !FEED_DATABASE_ID) {
   console.error(
