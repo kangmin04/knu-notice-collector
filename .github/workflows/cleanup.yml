@@ -1,0 +1,31 @@
+name: Cleanup stale unrelated notices
+
+on:
+  issues:
+    types: [labeled]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "(선택) 결과를 댓글로 남기고 close할 이슈 번호. 비워두면 현재 후보를 이슈 없이 바로 정리합니다."
+        required: false
+
+permissions:
+  issues: write
+
+jobs:
+  cleanup:
+    if: github.event_name == 'workflow_dispatch' || github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_FEED_DATABASE_ID: "22aeaa3935f7424a9c84513ecb611ed9"
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ISSUE_NUMBER: ${{ github.event.inputs.issue_number || github.event.issue.number }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Apply cleanup
+        run: node src/cleanup-apply.js

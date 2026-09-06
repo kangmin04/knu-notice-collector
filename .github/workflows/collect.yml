@@ -7,7 +7,8 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: write #
+  contents: write # data/seen.json 커밋용
+  issues: write # 정리 대상 후보 이슈 생성/갱신용
 
 jobs:
   collect:
@@ -51,6 +52,13 @@ jobs:
           NOTION_FEED_DATABASE_ID: "22aeaa3935f7424a9c84513ecb611ed9"
           RELEVANCE_THRESHOLD: "0.0504"
         run: node src/collect.js
+
+      - name: Detect cleanup candidates
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_FEED_DATABASE_ID: "22aeaa3935f7424a9c84513ecb611ed9"
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node src/cleanup-detect.js
 
       - name: Commit updated seen-state
         run: |
