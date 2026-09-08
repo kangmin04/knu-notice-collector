@@ -21,12 +21,16 @@ const LABELS_PATH = path.join(__dirname, "..", "data", "labels.json");
 
 const notion = new Client({ auth: NOTION_TOKEN });
 
-// 전체(451건 실측)를 한 번에 다 라벨링하기엔 부담이 커서, 최근 것부터 이 개수만 뽑는다.
+// 전체를 한 번에 다 라벨링하기엔 부담이 커서, 최근 것부터 이 개수만 뽑는다.
 // 200 → 400으로 늘려도 이미 라벨링된 앞쪽 200건은 main()의 병합 로직이 그대로 보존
 const RECENT_LIMIT = 400;
 
 // database_id로는 바로 query할 수 없어(docs/adr/0007), data_source_id를 먼저 조회
 async function fetchLabelCandidates() {
+  /* 
+    notion.database.retrive
+      - return : object, id, title(새글피드), description(nodejs 수집기) 등등..  
+  */
   const database = await notion.databases.retrieve({ database_id: FEED_DATABASE_ID });
   const dataSourceId = database.data_sources[0].id;
 
@@ -46,7 +50,7 @@ async function fetchLabelCandidates() {
   }));
 }
 
-// 이미 라벨링된 항목은 재실행해도 label 값이 덮어써지지 않도록, 기존 파일과 병합한다.
+// 이미 라벨링된 항목은 재실행해도 label 값이 덮어써지지 않도록, 기존 파일과 병합. 
 async function loadExistingLabels() {
   try {
     const raw = await fs.readFile(LABELS_PATH, "utf-8");
@@ -58,22 +62,28 @@ async function loadExistingLabels() {
 }
 
 async function main() {
-  const candidates = await fetchLabelCandidates(); // 전체 label 가져오고
+  const candidates = await fetchLabelCandidates(); 
   const existing = await loadExistingLabels(); // 기존에 label한 값들 또한 가져옴. (현재 labels_path임)
   const existingById = new Map(existing.map((entry) => [entry.id, entry])); // 가져온 json형식을 map형식으로. -> get(id)로 바로 entry 가져올수있게 !
 
-  const merged = candidates.map((item) => ({
-    id: item.id,
-    title: item.title,
-    url: item.url,
-    label: existingById.get(item.id)?.label ?? null, // 이 id가 기존에 label에서 걸러졌다면 label 그대로, 아니라면 null반환
-  }));
+  const unlabeledData = candidates
+  .filter((item) => ( !existingById.get(item.id)))
+  .map(unlabeled => ({
+      id: unlabeled.id,
+      title: unlabeled.title,
+      url: unlabeled.url,
+      label : null
+  }))
 
+  // 배열은 반드시 배열 스프레드([...a, ...b])로 이어붙여야 함.
+  // {...existing, ...unlabeledData}로 쓰면 배열이 인덱스를 키로 하는 객체로 변환돼서
+  // (existing[0]→{0:..}, unlabeledData[0]→{0:..}) 서로 같은 인덱스가 충돌 — existing 앞부분이
+  // unlabeledData로 조용히 덮어써지고, 결과도 배열이 아닌 객체가 돼 이후 .map()/.filter() 호출이 다 깨짐.
+  const merged = [...existing, ...unlabeledData]
   await fs.mkdir(path.dirname(LABELS_PATH), { recursive: true });
   await fs.writeFile(LABELS_PATH, JSON.stringify(merged, null, 2), "utf-8");
 
-  const unlabeled = merged.filter((entry) => entry.label === null).length;
-  console.log(`data/labels.json에 ${merged.length}건 기록 (라벨링 필요: ${unlabeled}건)`);
+  console.log(`data/labels.json에 ${unlabeledData.length + existing.length}건 기록 (라벨링 필요: ${unlabeledData.length}건)`);
 }
 
 main();
