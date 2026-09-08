@@ -34,7 +34,7 @@ export async function embed(text) {
     );
   }
   const extractor = await extractorPromise;
-  const tensorObj = await extractor(text, { pooling: "mean", normalize: true });
+  const tensorObj = await extractor(text, { pooling: "mean", normalize: true }); // normalize : true로 벡터의 길이가 유사도 계산에 영향 못미치게함. 
   const flat_number = Array.from(tensorObj.data);
 
   return flat_number;

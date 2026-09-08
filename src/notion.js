@@ -78,7 +78,7 @@ export async function queryStaleUnrelatedItems({ notionToken, databaseId, olderT
   return results;
 }
 
-// Notion API에는 진짜 삭제가 없으므로 archived:true로 휴지통에 옮긴다(30일 내 복구 가능).
+// Notion API에는 진짜 삭제가 없으므로 archived:true로 휴지통에 옮김(30일 내 복구 가능).
 export async function archiveItems({ notionToken, pageIds }) {
   let archivedCount = 0;
 

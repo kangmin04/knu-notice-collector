@@ -36,7 +36,7 @@ async function main() {
   });
 
   // ISSUE_NUMBER가 없는 수동 실행(workflow_dispatch, 이슈 지정 없이)은 승인 절차를
-  // 건너뛰고 지금 시점의 재조회 결과를 그대로 정리한다.
+  // 건너뛰고 지금 시점의 재조회 결과를 그대로 정리.
   if (!ISSUE_NUMBER) {
     if (DRY_RUN) {
       console.log(

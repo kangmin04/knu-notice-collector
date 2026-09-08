@@ -58,6 +58,14 @@ export const sites = [
     target: "경북대",
   },
   {
+    id: "cse-aic",
+    name: "경북대 인공지능혁신융합대학사업단 - 공지사항",
+    url: "https://home.knu.ac.kr/HOME/aic/sub.htm?nav_code=aic1635293208",
+    parser: "knuHome",
+    category: ["공모전", "기타"],
+    target: "경북대",
+  },
+  {
     id: "it-news",
     name: "IT대학 NEWS 게시판",
     url: "https://home.knu.ac.kr/HOME/it/sub.htm?nav_code=it1623310437",

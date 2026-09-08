@@ -172,3 +172,150 @@ for (const [i, item] of items.entries()) {
 안 받아서, 다음 반복은 그냥 원래 순서대로 진행됨. "이전 항목으로 되돌아가기"처럼 되감기가
 필요하면 `for...of`가 아니라 **직접 관리하는 인덱스로 도는 `while`/`for` 루프**를 써야 함
 (`let i = 0; while (i < arr.length) { ...; i--; continue; }` 형태).
+
+## 2026-09-09 — `scripts/tune-threshold.js` 순차 루프를 병렬화하는 논의 중 정리 (/deep-dive)
+
+### `await`는 "그 함수의 이후 실행"만 멈춘다 — `.map(async fn)`이 즉시 Promise 배열을 반환하는 이유
+`async function`은 호출되는 즉시 첫 `await`까지 완전히 동기 실행되고, 그 지점에서 pending
+Promise를 반환하며 호출자에게 제어권을 돌려준다. `.map()`으로 여러 async 콜백을 돌리면,
+콜백 하나가 끝나길 기다리지 않고 여러 개를 거의 즉시 "시작"만 시킨 배열이 나온다.
+
+```js
+// 프로젝트 코드 아님 — .map(async fn)의 일반적인 동작을 보여주는 최소 예시
+const promises = labels.map((entry) => scoreTitle(entry.title));
+// 이 시점에 promises는 [Promise{pending}, Promise{pending}, ...] — 아직 아무 결과도 없음
+const scores = await Promise.all(promises); // 여기서 전부 끝날 때까지 한 지점에서 기다림
+```
+
+위쪽 "순차 `for-of await` vs 동시 실행" 절과 결정적으로 다른 지점: 순차 버전은 N+1번째
+작업이 N번째 작업의 **완료**를 기다렸다가 비로소 **호출(디스패치)**되지만, `.map()` 버전은
+여러 호출이 서로의 완료를 기다리지 않고 마이크로초 단위로 다 끝나버림 — 아래 "디스패치 vs
+완료" 절 참고.
+
+### `Promise.all`의 순서 보장 — 완료 순서가 뒤섞여도 결과 배열은 원래 인덱스 순서
+`Promise.all`은 입력 배열을 인덱스와 함께 순회하며, 각 프로미스가 fulfill되면 완료 순서가
+아니라 **그 원래 인덱스 자리**에 결과를 써넣는다(내부적으로 남은 개수를 세다가 0이 되면
+전체를 resolve). 그래서 137번째 작업이 0번째보다 먼저 끝나도 `scores[0]`엔 항상
+`labels[0]`의 결과가 들어감 — "인덱스를 기억해뒀다가 그 자리에 쓴다"는 명시적 메커니즘
+덕분이지, 우연이 아님.
+
+### run-to-completion 원자성 — lazy singleton이 병렬 호출에서도 안전한 이유(트레이스)
+위쪽 2026-09-05 섹션에서 다룬 `extractorPromise`/`prototypeEmbeddingsPromise` lazy
+singleton이 여러 호출이 한꺼번에 몰려도 안전한 이유를 실행 순서로 직접 추적:
+
+```
+[index 0] scoreTitle(labels[0].title) 호출
+   → loadPrototypeEmbeddings() 호출 (동기 함수)
+      → if (!prototypeEmbeddingsPromise)  // true
+      → prototypeEmbeddingsPromise = Promise.all([...])   // 즉시 채워짐
+   → await 그 promise   // ★ 여기서 처음으로 제어권을 내놓음
+
+[index 1] scoreTitle(labels[1].title) 호출   ← index 0이 await로 넘긴 다음에야 실행
+   → loadPrototypeEmbeddings() 호출
+      → if (!prototypeEmbeddingsPromise)  // 이미 채워져 있음 → false, 캐시 재사용
+```
+
+JS는 싱글 스레드 + 이벤트 루프라 **`await`가 없는 동기 코드 구간은 절대 다른 코드가
+끼어들 수 없다**(run-to-completion). `if(!x) x = ...` 체크와 대입 사이에 `await`가 없으므로,
+아무리 많은 호출이 "동시에" 몰려도 이 체크-대입은 항상 원자적으로 실행됨 — OS 스레드처럼
+언제든 선점(preemption)될 수 있는 환경이었다면 뮤텍스 없이는 안전하지 않았을 코드.
+
+### 청크(chunk) 분할 vs 워커 풀(worker pool) — 대량 데이터로 늘어날 때의 병렬화 패턴
+라벨이 수만 건으로 늘어나면 `Promise.all`을 한 번에 통짜로 돌리는 대신 동시 실행 개수를
+제한해야 하는데, 두 가지 방식이 있고 효율이 다르다.
+
+```js
+// 프로젝트 코드 아님 — 청크 분할(단순하지만 "배치 장벽" 비효율 있음)
+const CHUNK_SIZE = 15;
+const scored = [];
+for (let i = 0; i < labels.length; i += CHUNK_SIZE) {
+  const chunk = labels.slice(i, i + CHUNK_SIZE);
+  const chunkResults = await Promise.all(
+    chunk.map(async (entry) => ({
+      title: entry.title, label: entry.label, score: await scoreTitle(entry.title),
+    })),
+  );
+  scored.push(...chunkResults);
+}
+```
+
+청크 안에서 가장 느린 항목 하나가 다음 청크 시작을 막는 "배치 장벽" 비효율이 있음 — 15개 중
+14개가 빨리 끝나도 1개가 느리면 그 1개를 기다리는 동안 나머지 자리는 논다.
+
+```js
+// 프로젝트 코드 아님 — 워커 풀(항상 N개 동시 유지, 하나 끝나면 즉시 다음 항목 투입)
+async function scoreAllConcurrently(labels, concurrency = 15) {
+  const scored = new Array(labels.length);
+  let cursor = 0;
+  async function worker() {
+    while (cursor < labels.length) {
+      const i = cursor++; // await 없는 동기 한 줄 — 위 원자성 원리 그대로 적용, race 없음
+      const entry = labels[i];
+      scored[i] = { title: entry.title, label: entry.label, score: await scoreTitle(entry.title) };
+    }
+  }
+  await Promise.all(Array.from({ length: concurrency }, () => worker()));
+  return scored;
+}
+```
+
+`concurrency`개의 "워커"가 공유 `cursor`에서 다음 인덱스를 하나씩 뽑아가며 일하다가, 하나가
+끝나면 그 워커가 즉시 다음 항목을 집어듦 — 배치 장벽이 없음. `p-limit` 같은 npm 패키지이
+내부적으로 하는 것도 본질적으로 이 패턴임.
+
+### 실측: `@xenova/transformers`가 Node에서 쓰는 실제 백엔드 — 네이티브 addon
+Node 환경에서 실제 텐서 연산이 "가짜 async"(메인 스레드를 계속 막는 동기 코드를 Promise로만
+감싼 것)인지 "진짜 오프로드"인지 실제 소스를 확인해봄.
+
+```js
+// node_modules/@xenova/transformers/src/backends/onnx.js:7-8, 19-22
+//   - When running in node, we use `onnxruntime-node`.
+//   - When running in the browser, we use `onnxruntime-web` ...
+// NOTE: Import order matters here. We need to import `onnxruntime-node` before `onnxruntime-web`.
+import * as ONNX_NODE from 'onnxruntime-node';
+import * as ONNX_WEB from 'onnxruntime-web';
+```
+
+`onnxruntime-node`는 컴파일된 네이티브 addon(`onnxruntime_binding.node`, N-API)임. 이
+바인딩의 `session.run()`은 N-API의 AsyncWorker 방식으로 구현돼 있다고 공개적으로 알려져
+있어(컴파일된 바이너리 내부까지 직접 검증한 건 아님 — caveat), 실제 행렬 연산을 **libuv
+스레드풀**로 진짜 오프로드함. JS 메인 스레드는 안 막힘 — Promise로 감싸기만 하고 실제로는
+동기 실행되는 흔한 함정과는 다름.
+
+### libuv 스레드풀 크기 제한 — 병렬화 효과의 진짜 상한
+libuv 스레드풀 기본 크기는 `UV_THREADPOOL_SIZE=4`(fs/crypto/DNS 등 다른 네이티브 비동기
+작업과 공유). `Promise.all`로 250개를 동시에 "시작"해도 실제로 물리적으로 연산 중인 건
+최대 4개뿐 — 나머지는 스레드가 빌 때까지 대기열에 머무름. 그러므로 병렬화의 실질적 상한은
+`min(concurrency 설정값, UV_THREADPOOL_SIZE, 실제 CPU 코어 수)`이지 항목 개수가 아님.
+`require("node:os").cpus().length`로 코어 수 확인 가능, `UV_THREADPOOL_SIZE` 환경변수로
+스레드풀을 늘릴 수 있지만 코어 수 이상 늘려봐야 의미 없음(컨텍스트 스위칭만 늘어남).
+
+### "디스패치 시점" vs "완료 시점" — 순차/병렬의 진짜 차이
+`await`가 코드에 있다고 해서 그 작업 전체가 "동기적으로 실행"되는 게 아님 — `await`는 딱
+"이 콜백이 자기 결과를 완성하는 시점"만 그 프로미스에 묶어둘 뿐, "이 콜백이 언제
+시작(디스패치)되는지"는 이미 그 전에 끝나 있음. 100ms짜리 작업 250개, 스레드풀 4개
+기준으로 비교하면:
+
+```
+순차(for + await): N+1번째 작업은 N번째가 "완료"돼야 "호출"조차 됨 → 250 × 100ms = 25,000ms
+병렬(map + Promise.all): 250개 디스패치가 거의 동시에 끝나고, 실제 연산만 스레드풀
+                          자리(4개)가 빌 때마다 채워짐 → 250/4 × 100ms ≈ 6,250ms (4배)
+```
+
+순차 버전은 디스패치가 이전 항목의 **완료**에 1:1로 묶여 있고(직렬), 병렬 버전은 디스패치
+자체는 거의 즉시 다 끝나버리고 그 뒤로는 오직 "실제 연산"만 스레드풀 병목을 받음 — 이
+구분이 "await 있는데 왜 병렬이 되냐"는 혼동을 푸는 핵심.
+
+### 이론을 직접 벤치마크로 검증하는 법
+```js
+// 프로젝트 코드 아님 — 순차 vs 병렬 실측 비교용 최소 예시
+console.time("sequential-20");
+for (const t of titles.slice(0, 20)) await scoreTitle(t);
+console.timeEnd("sequential-20");
+
+console.time("parallel-20");
+await Promise.all(titles.slice(0, 20).map((t) => scoreTitle(t)));
+console.timeEnd("parallel-20");
+```
+병렬이 순차보다 3~4배 근처로 빠르면 위 스레드풀 오프로드 이론이 맞다는 실증이고, 거의
+차이가 없으면 다른 병목(프로토타입 로딩 겹침 등)이 있다는 뜻이니 그때 다시 파봐야 함.

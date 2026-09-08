@@ -18,7 +18,7 @@ if (!NOTION_TOKEN || !FEED_DATABASE_ID) {
 }
 
 // 사람이 읽는 목록과, cleanup-apply.js가 승인 시점에 다시 파싱할 page id 배열을
-// 이슈 본문 하나에 함께 담는다. 매번 오늘자 전체 후보로 덮어써야(append 아님)
+// 이슈 본문 하나에 함께 담음. 매번 오늘자 전체 후보로 덮어써야(append 아님)
 // 그 사이 사용자가 Notion에서 IT 관련 체크를 고친 글이 자연히 목록에서 빠진다.
 function buildIssueBody(candidates) {
   const list = candidates.map((c) => `- [${c.title}](${c.url}) (\`${c.id}\`)`).join("\n");

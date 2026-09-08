@@ -14,6 +14,8 @@ export const POSITIVE_PROTOTYPES = [
   "개발자",
   "Develop",
   "블록체인",
+  "오픈소스 AI 컨트리뷰터 챌린지 참가자 모집 안내", 
+  "하반기 인턴십(채용연계형) 인재 모집"
 ];
 
 export const NEGATIVE_PROTOTYPES = [
@@ -27,4 +29,6 @@ export const NEGATIVE_PROTOTYPES = [
   "학생회 임원 선거 공고",
   "캠퍼스 내 주차 등록 안내",
   "일반 사무행정직 채용 공고",
+  "[사회과학대학] 2학기 경북대학교 언론고시원 입실 지원 안내", 
+  "[교직] 교원양성과정 성인지 교육 이수 현황 통보 및 교육 참여 요청"
 ];

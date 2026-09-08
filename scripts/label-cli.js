@@ -62,9 +62,9 @@ async function main() {
     } else if (answer === "n") {
       labels[idx].label = false;
     }
-    // 그 외 입력(빈 값 등)은 건너뛰고 label을 null로 남겨둔다.
+    // 그 외 입력(빈 값 등)은 건너뛰고 label을 null로 남겨둠 
 
-    await saveLabels(labels); // 매 응답마다 저장 — 중간에 종료돼도 진행 상황이 보존된다.
+    await saveLabels(labels); // 매 응답마다 저장 — 중간에 종료돼도 진행 상황이 보존
   }
 
   rl.close();
