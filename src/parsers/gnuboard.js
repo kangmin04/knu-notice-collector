@@ -1,5 +1,5 @@
 import * as cheerio from "cheerio";
-import { absolutize, cleanText } from "./common.js";
+import { cleanText } from "./common.js";
 
 // 그누보드 계열 게시판 (cse.knu.ac.kr, startup.knu.ac.kr, iact.or.kr 등).
 // <a href="...wr_id=NNNN">제목</a> 패턴을 공통으로 사용한다.

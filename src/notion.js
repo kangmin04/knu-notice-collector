@@ -65,11 +65,15 @@ export async function queryStaleUnrelatedItems({ notionToken, databaseId, olderT
     }
 
     const body = await res.json();
+    /* 
+      삭제되는 사이트 비율 확인위해서 사이트까지 push
+    */
     for (const page of body.results) {
       results.push({
         id: page.id,
         title: page.properties["제목"]?.title?.[0]?.plain_text ?? "(제목 없음)",
         url: page.properties["URL"]?.url ?? "",
+        site: page.properties["사이트"]?.rich_text?.[0]?.plain_text ?? "(사이트출처불분명)",
       });
     }
     cursor = body.has_more ? body.next_cursor : undefined;

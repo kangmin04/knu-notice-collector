@@ -47,6 +47,7 @@ function findOpenIssueNumber() {
 }
 
 async function main() {
+  /* candidates : delete할 글의 id, title, url 가진 배열 */
   const candidates = await queryStaleUnrelatedItems({
     notionToken: NOTION_TOKEN,
     databaseId: FEED_DATABASE_ID,
@@ -77,3 +78,16 @@ async function main() {
 }
 
 main();
+
+// //정리 대상 사이트 저장
+// function getDeleteUrl(candidates){
+//   // 전역 대상의 혹은 db같은 저장 공간이 필요. file..
+//   //그냥 sites.js에 NumberOfDelete 객체생성함.
+//   //delete될때마다 순회하면서 ++해줌.
+//   candidates.forEach(element => {
+//     sites[element.url].numberOfDelete++;
+//   });
+// }
+
+// //delete할때마다, summary 돌리고, summary 내용을 dashboard나 노션으로 관리가능하게.
+// // 간편 html??
