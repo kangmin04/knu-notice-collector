@@ -25,7 +25,7 @@ let usedBrowser = false;
 async function fetchSiteContent(site) {
   // site.mode가 "dynamic"이면 Playwright로 렌더링, 아니면(기본값) 단순 fetch로 가져온다.
   // 파서(parsers/*)는 둘 중 어느 경로로 왔는지 몰라도 되도록 항상 HTML 문자열을 반환한다.
-  if (site.mode === "dynamic") {
+  if (site?.mode === "dynamic") {
     usedBrowser = true;
     const { fetchDynamicHtml } = await import("./browser.js");
     return fetchDynamicHtml(site);
