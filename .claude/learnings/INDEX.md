@@ -1,7 +1,7 @@
 - [GitHub Actions / CI yml 작성법](github-actions-ci.md) — 트리거·권한·매트릭스·secrets·조건부 커밋 패턴, gh CLI 설정 흐름, 아티팩트/outputs/재사용 워크플로우/Docker/승인 게이트 등 상세 예시
 - [Playwright 동적 렌더링 수집](playwright-dynamic-rendering.md) — E2E 테스트와의 차이, SPA fetch 한계, waitForSelector+grace time으로 레이스 컨디션 방지, static/dynamic 지연 라우팅
 - [JS/Node 비동기 패턴](js-async-patterns.md) — Promise 메모이제이션 싱글턴과 run-to-completion 원자성 증명, 청크/워커풀 병렬화, onnxruntime-node/libuv 스레드풀, 디스패치 vs 완료 시점, 같은 await 누락이 매번 다른 증상으로 나타난 이유, 프로세스 종료-pending I/O 인과관계 정정
-- [Node 스크립트/배치 잡 설계 패턴](node-script-design-patterns.md) — Strategy+Registry 패턴, fetch/parse 계층 분리, 항목 단위 에러 격리, 컨텐츠 해시 기반 아이덴티티, GitHub Actions 프로세스는 매번 새로 뜬다는 전제와 파일 경계로 상태 넘기기, config/state 분리 원칙, 블록 스코프·Map 호출·off-by-one·빈 파일 JSON.parse 실수, 계산/저장 분리 설계 판단
+- [Node 스크립트/배치 잡 설계 패턴](node-script-design-patterns.md) — Strategy+Registry 패턴, fetch/parse 계층 분리, 항목 단위 에러 격리, 컨텐츠 해시 기반 아이덴티티, GitHub Actions 프로세스는 매번 새로 뜬다는 전제와 파일 경계로 상태 넘기기, config/state 분리 원칙, 루프 안에서 매번 재로드하다 mutate가 사라지던 문제, 블록 스코프·Map 호출·off-by-one·빈 파일 JSON.parse 실수, 계산/저장 분리 설계 판단
 - [HTTP 요청 리버스엔지니어링](http-api-reverse-engineering.md) — fetch의 method는 옵션일 뿐, DevTools Network 탭(Fetch/XHR 필터·Headers/Payload·Copy as cURL)으로 숨은 API 찾는 절차, CDP-Playwright 연결, 크롤러가 깨지는 시나리오
 - [transformers.js 문장 임베딩](transformers-js-embeddings.md) — pooling/normalize는 extractor 호출 시점 옵션, Tensor.data는 항상 flat, env.cacheDir CI 캐싱, self-attention Q/K/V·분포가설·코사인 유사도가 스케일 불변인 이유
 - [Notion API databases vs dataSources](notion-api-data-sources.md) — 2025 스키마 변경으로 query가 dataSources로 이동, retrieve().id는 database 자신의 id라는 함정, collectPaginatedAPI

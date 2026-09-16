@@ -322,6 +322,43 @@ const currentById = new Map(current.map(c => [c.id, c]));
 const archivedItems = toArchive.map((id) => currentById.get(id));
 ```
 
+### 루프 안에서 매번 "로드"부터 다시 하면, 같은 실행 안에서도 앞선 반복의 mutate가 사라짐
+
+가장 처음 짠 `collectDeletedSites`는 후보 하나(`item`)를 받아 그 **내부에서** 매번
+`loadStoreDeleted()`부터 다시 부르는 모양이었다:
+```js
+// 당시 실제 코드(지금은 고쳐짐) — src/cleanup-apply.js
+function collectDeletedSites(item){
+  let {data, isFirstRun} = loadStoreDeleted();   // 후보 하나당 매번 디스크에서 다시 읽음
+  const {site} = item;
+  if(!(site in data)){
+    data[site] = {count : 0};
+  }else{
+    data[site].count++;
+  }
+  return data;
+}
+// 호출부: 후보 배열을 순회하며 매번 이 함수를 부름
+for (const c of current) {
+  let data = collectDeletedSites(c);
+}
+```
+위 "블록 스코프" 문제(루프 밖에서 `data`가 안 보임)를 고친다 해도, 이 구조엔 더 근본적인
+결함이 있었음 — `loadStoreDeleted()`가 **디스크에 저장된 값**에서 매번 새로 시작하기 때문에,
+같은 실행(run) 안에서 같은 사이트 후보가 여러 건이어도 **이전 반복에서 늘린 값이 다음 반복에
+안 이어짐**. 예를 들어 A 사이트 후보가 이번 실행에 3건이면, 세 번의 호출 각각이 "디스크 값 +
+1"만 계산하고 끝나버려서(저장은 루프가 다 끝난 뒤 한 번뿐이니, 두 번째·세 번째 호출 시점에도
+디스크 값은 아직 그대로) 최종적으로 반영되는 건 그중 한 번의 +1뿐 — 나머지 두 건은 계산됐다가
+그냥 버려짐.
+
+**해법은 위쪽 2026-09-10 절에서 이미 정리한 `collect.js`의 load-once/mutate/save-once 계약을
+그대로 적용하는 것**이었음: `loadStoreDeleted()`를 `main()`에서 딱 한 번 호출해 `data`를
+얻고, `collectDeletedSites`는 후보 **배열 전체**(`current`/`archivedItems`)를 받아 그 하나의
+`data` 객체를 계속 mutate하기만 하며, `saveStoreDeleted`도 루프가 다 끝난 뒤 한 번만 부름
+(최종 모습은 `src/cleanup-apply.js:33-49, 56-57, 75-76`). 함수를 "후보 하나당 한 번 부르는
+헬퍼"에서 "후보 배열을 받아 통째로 처리하는 함수"로 바꾼 것 자체가, 매번 로드하려는 유혹을
+구조적으로 없앤 셈.
+
 ### `Map`을 함수처럼 호출한 오타 — `.get()`을 빼먹음
 ```js
 // 당시 실제 코드(지금은 고쳐짐)

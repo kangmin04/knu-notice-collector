@@ -74,15 +74,15 @@ async function main() {
       title: entry.title,
       label: entry.label,
       score: await scoreTitle(entry.title),
-    }))
-  )
+    })),
+  );
   // const scored = [];
-  // for (const [i, entry] of labels.entries()) { // 각 제목마다. 
+  // for (const [i, entry] of labels.entries()) { // 각 제목마다.
   //   const score = await scoreTitle(entry.title);
   //   scored.push({ title: entry.title, label: entry.label, score });
-    // if ((i + 1) % 50 === 0 || i === labels.length - 1) {
-    //   console.log(`  ${i + 1}/${labels.length}`);
-    // }
+  // if ((i + 1) % 50 === 0 || i === labels.length - 1) {
+  //   console.log(`  ${i + 1}/${labels.length}`);
+  // }
   //}
 
   // 3. threshold 후보 생성 — 0~1 같은 고정 범위가 아니라, 실제 관측된 점수의 최소~최대 구간을
