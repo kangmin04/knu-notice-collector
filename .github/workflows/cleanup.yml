@@ -10,7 +10,7 @@ on:
         required: false
 
 permissions:
-  contents: read
+  contents: write # data/delete-counts.json 커밋용
   issues: write
 
 jobs:
@@ -30,3 +30,11 @@ jobs:
           node-version: "24"
       - name: Apply cleanup
         run: node src/cleanup-apply.js
+
+      - name: Commit updated delete-counts
+        run: |
+          git config user.name "knu-notice-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/delete-counts.json
+          git diff --cached --quiet || git commit -m "chore: update delete counts [skip ci]"
+          git push
